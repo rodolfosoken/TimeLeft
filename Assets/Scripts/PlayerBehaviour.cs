@@ -29,9 +29,10 @@ public class PlayerBehaviour : MonoBehaviour
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
 
+        if(!anim.GetBool("Ataque")){
         // Move the player around the scene.
         Move(h, v);
-
+    }
         // Animate the player.
         Animating(h, v);
     }
@@ -40,6 +41,22 @@ public class PlayerBehaviour : MonoBehaviour
     {
         // Turn the player to face the mouse cursor.
         Turning();
+        Ataque();
+
+    }
+
+    void Ataque()
+    {
+
+        if (Input.GetMouseButton(1))
+        {
+            anim.SetBool("Ataque",true);
+        }
+        else
+        {
+            anim.SetBool("Ataque", false);
+        }
+
     }
 
     void Move(float h, float v)
@@ -53,6 +70,7 @@ public class PlayerBehaviour : MonoBehaviour
         // Move the player to it's current position plus the movement.
         playerRigidbody.MovePosition(transform.position + movement);
     }
+
 
     void Turning()
     {
