@@ -29,10 +29,11 @@ public class PlayerBehaviour : MonoBehaviour
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
 
-        if(!anim.GetBool("Ataque")){
-        // Move the player around the scene.
-        Move(h, v);
-    }
+        if (!anim.GetBool("ModoAtaque"))
+        {
+            // Move the player around the scene.
+            Move(h, v);
+        }
         // Animate the player.
         Animating(h, v);
     }
@@ -50,11 +51,13 @@ public class PlayerBehaviour : MonoBehaviour
 
         if (Input.GetMouseButton(1))
         {
-            anim.SetBool("Ataque",true);
+            anim.SetBool("ModoAtaque", true);
+            if (Input.GetMouseButtonDown(0))
+                anim.SetTrigger("Atacar");
         }
         else
         {
-            anim.SetBool("Ataque", false);
+            anim.SetBool("ModoAtaque", false);
         }
 
     }
@@ -74,7 +77,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     void Turning()
     {
-        
+
 
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) && (lastKeyPress != 1))
         {
@@ -100,9 +103,9 @@ public class PlayerBehaviour : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow) && (lastKeyPress != 3))
         {
-            if(lastKeyPress == 1)
+            if (lastKeyPress == 1)
                 transform.Rotate(Time.deltaTime, 90, 0);
-            else if(lastKeyPress == 2)
+            else if (lastKeyPress == 2)
                 transform.Rotate(Time.deltaTime, -90, 0);
             else if (lastKeyPress == 4)
                 transform.Rotate(Time.deltaTime, 180, 0);
@@ -124,7 +127,7 @@ public class PlayerBehaviour : MonoBehaviour
         }
 
 
-        
+
     }
 
     void Animating(float h, float v)
