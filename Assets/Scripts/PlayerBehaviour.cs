@@ -48,10 +48,12 @@ public class PlayerBehaviour : MonoBehaviour
 
     void Ataque()
     {
-
+        //entra em modo de ataque ao pressionar o botão direito do mouse
         if (Input.GetMouseButton(1))
         {
             anim.SetBool("ModoAtaque", true);
+
+            //ataca ao pressionar o botão esquerdo do mouse
             if (Input.GetMouseButtonDown(0))
                 anim.SetTrigger("Atacar");
         }
@@ -78,7 +80,7 @@ public class PlayerBehaviour : MonoBehaviour
     void Turning()
     {
 
-
+        // verifica para qual direção irá virar conforme o último movimento
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) && (lastKeyPress != 1))
         {
             if (lastKeyPress == 2)
