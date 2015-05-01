@@ -6,7 +6,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     Vector3 movement;                   // The vector to store the direction of the player's movement.
     Animator anim;                      // Reference to the animator component.
-    Rigidbody playerRigidbody;          // Reference to the player's rigidbody.
+   // Rigidbody playerRigidbody;          // Reference to the player's rigidbody.
     int floorMask;                      // A layer mask so that a ray can be cast just at gameobjects on the floor layer.
     static int lastKeyPress;
     void Awake()
@@ -19,7 +19,7 @@ public class PlayerBehaviour : MonoBehaviour
 
         // Set up references.
         anim = GetComponent<Animator>();
-        playerRigidbody = GetComponent<Rigidbody>();
+        //playerRigidbody = GetComponent<Rigidbody>();
     }
 
 
@@ -41,7 +41,7 @@ public class PlayerBehaviour : MonoBehaviour
     void Update()
     {
         // Turn the player to face the mouse cursor.
-        Turning();
+        //Turning();
         Ataque();
 
     }
@@ -73,7 +73,7 @@ public class PlayerBehaviour : MonoBehaviour
         movement = movement.normalized * speed * Time.deltaTime;
 
         // Move the player to it's current position plus the movement.
-        playerRigidbody.MovePosition(transform.position + movement);
+       // playerRigidbody.MovePosition(transform.position + movement);
     }
 
 
