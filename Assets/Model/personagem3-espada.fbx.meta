@@ -411,8 +411,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Armature|Walk
       takeName: Armature|Walk
-      firstFrame: 0
-      lastFrame: 28
+      firstFrame: 2
+      lastFrame: 27
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
