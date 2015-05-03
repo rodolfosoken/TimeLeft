@@ -14,6 +14,10 @@ public class ControllerThird : MonoBehaviour
     public float jumpAnimationSpeed = 1F;
     public float landAnimationSpeed = 1F;
 
+    public bool IsDefending;
+
+    private PlayerBehaviour behaviour;
+
     private Animation _animation;
 
     enum CharacterState
@@ -92,6 +96,9 @@ public class ControllerThird : MonoBehaviour
 
     // Use this for initialization
     void Awake(){
+
+        behaviour = GetComponent<PlayerBehaviour>();
+
     moveDirection = transform.TransformDirection(Vector3.forward);
    
     _animation = GetComponent<Animation>();
@@ -123,6 +130,7 @@ public AnimationClip jumpPoseAnimation;
            
 }
     void UpdateSmoothedMovementDirection(){
+
     Transform cameraTransform = Camera.main.transform;
     bool grounded = IsGrounded();
    
@@ -161,6 +169,7 @@ public AnimationClip jumpPoseAnimation;
         // We store speed and direction seperately,
         // so that when the character stands still we still have a valid forward direction
         // moveDirection is always normalized, and we only update it if there is user input.
+  
         if (targetDirection != Vector3.zero)
         {
             // If we are really slow, just snap to the target direction
@@ -171,7 +180,7 @@ public AnimationClip jumpPoseAnimation;
             // Otherwise smoothly turn towards it
             else
             {
-                moveDirection = Vector3.RotateTowards(moveDirection, targetDirection, rotateSpeed * Mathf.Deg2Rad * Time.deltaTime, 1000);
+               moveDirection = Vector3.RotateTowards(moveDirection, targetDirection, rotateSpeed * Mathf.Deg2Rad * Time.deltaTime, 1000);
                
                 moveDirection = moveDirection.normalized;
             }
@@ -277,6 +286,7 @@ public AnimationClip jumpPoseAnimation;
     void Update()
     {
 
+
         if (!isControllable)
         {
             // kill all inputs if not controllable.
@@ -290,6 +300,7 @@ public AnimationClip jumpPoseAnimation;
 
         UpdateSmoothedMovementDirection();
 
+
         // Apply gravity
         // - extra power jump modifies gravity
         // - controlledDescent mode modifies gravity
@@ -301,6 +312,11 @@ public AnimationClip jumpPoseAnimation;
         // Calculate actual motion
         Vector3 movement = moveDirection * moveSpeed + new Vector3(0, verticalSpeed, 0) + inAirVelocity;
         movement *= Time.deltaTime;
+
+        if (behaviour.IsDefending)
+        {
+            movement = Vector3.zero;
+        }
 
         // Move the controller
         CharacterController controller = GetComponent<CharacterController>();
