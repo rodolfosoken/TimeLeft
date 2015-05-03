@@ -8,10 +8,13 @@ public class PlayerBehaviour : MonoBehaviour
     Animator anim;                      // Reference to the animator component.
    // Rigidbody playerRigidbody;          // Reference to the player's rigidbody.
     public bool IsDefending;
-
+    public bool IsUnderAttack;
+    public static PlayerBehaviour _instance;
+    
     void Awake()
     {
         IsDefending = false;
+        _instance = this;
 
         // Set up references.
         anim = GetComponent<Animator>();
@@ -67,6 +70,11 @@ public class PlayerBehaviour : MonoBehaviour
             IsDefending = false;
         }
 
+    }
+
+    public void Hit()
+    {
+        anim.SetTrigger("Hit");
     }
   
 

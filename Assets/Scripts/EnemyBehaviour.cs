@@ -10,11 +10,12 @@ public class EnemyBehaviour : MonoBehaviour {
     private Vector3 lastPosition;
 
     public float speed = 2.0f;
-    public float range = 15.0f;
+    public float range = 50.0f;
     Rigidbody EnemyRigidbody;
     bool IsWalking;
 
     public float rotateSpeed = 3.0f;
+ 
 
 
     void Awake ()
@@ -25,28 +26,36 @@ public class EnemyBehaviour : MonoBehaviour {
         lastPosition = transform.position;
 
          anim = GetComponent<Animation>();
-
+         
          EnemyRigidbody = GetComponent<Rigidbody>();
+      
     }
 
 
     void Update ()
     {
         
-        // Store the input axes.
-        float h = Vector3.Distance(transform.position , player.position);
+        float dist = Vector3.Distance(transform.position , player.position);
         //
-        Animating(h);
+       Animating(dist);
 
-        // Move the controller
-        Move();
+        if (dist > range)
+        {
+            anim.CrossFade("loop_idle");
+        }
+        else
+        {
+            if (IsWalking)
+            {
+                Move();
+            }
+           
+        }
+
 
     }
 
     void Move(){
-        if (IsWalking)
-        {
-
             if (player)
             {
                 Vector3 delta = player.position - transform.position;
@@ -54,11 +63,9 @@ public class EnemyBehaviour : MonoBehaviour {
                 float moveSpeed = speed * Time.deltaTime;
                 delta.y = 0;
                 transform.position = transform.position + (delta * moveSpeed);
+                RotateTowardsTarget();
+            
             }
-
-            RotateTowardsTarget();
-
-        }
 
     }
 
@@ -72,11 +79,11 @@ public class EnemyBehaviour : MonoBehaviour {
         transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(enemyToPlayer), rotateSpeed * Time.deltaTime);
     }
 
-    void Animating(float dist)
+    void Animating(float distance)
     {
         // Create a boolean that is true if either of the input axes is non-zero.
-        IsWalking = dist > range;
-        print("distancia: " + dist + IsWalking);
+        IsWalking = distance > 12;
+        print("distancia: " + distance + IsWalking);
         if (IsWalking)
         {
             // Tell the animator whether or not the player is walking.
@@ -84,9 +91,17 @@ public class EnemyBehaviour : MonoBehaviour {
         }
         else
         {
-            anim.CrossFade("punch_hi_left");
+            StartCoroutine(punch());
         }
 
+        
+    }
+
+    IEnumerator punch()
+    {
+        anim.CrossFade("punch_hi_left");
+        yield return new WaitForSeconds(0.6f);
+        PlayerBehaviour._instance.Hit();
     }
 
 }
