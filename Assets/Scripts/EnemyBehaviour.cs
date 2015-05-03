@@ -9,6 +9,7 @@ public class EnemyBehaviour : MonoBehaviour {
     public float moveSpeed = 0.0F;
     private Vector3 lastPosition;
 
+    public int life = 3;
     public float speed = 2.0f;
     public float range = 50.0f;
     Rigidbody EnemyRigidbody;
@@ -99,5 +100,25 @@ public class EnemyBehaviour : MonoBehaviour {
         
     }
 
+    public void Hit()
+    {
+        if (life > 0)
+        {
 
+            anim.SetTrigger("hit");
+            life--;
+        }
+        else
+        {
+            StartCoroutine(death());
+           
+        }
+    }
+
+    IEnumerator death()
+    {
+        anim.SetTrigger("die");
+        yield return new WaitForSeconds(2);
+        Destroy(this.gameObject);
+    }
 }
