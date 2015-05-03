@@ -95,10 +95,20 @@ public class EnemyBehaviour : MonoBehaviour {
         {
             anim.SetBool("IsWalking", false);
             anim.SetTrigger("punch");
+
         }
 
         
     }
+
+    void OnCollisionEnter(Collision col) 
+    {
+        if (col.gameObject.tag == "Player")
+	{
+        //col.gameObject.GetComponent<PlayerBehaviour>().TakeDamage();	 
+	}
+    }
+
 
     public void TakeDamage()
     {

@@ -10,6 +10,7 @@ public class PlayerBehaviour : MonoBehaviour
     public bool IsDefending;
     public bool IsUnderAttack;
     public static PlayerBehaviour _instance;
+    public int life = 30;
     
     void Awake()
     {
@@ -72,11 +73,16 @@ public class PlayerBehaviour : MonoBehaviour
 
     }
 
-    public void Hit()
+    public void TakeDamage()
     {
-        anim.SetTrigger("Hit");
-    }
-  
+        if (!IsDefending)
+        {
+            Debug.Log("hit em player");
+            anim.SetTrigger("Hit");
+            PopUpDamage.ShowMessage("-1", transform.position);
+            life--;
+        }
+    } 
 
     void Animating(float h, float v)
     {
