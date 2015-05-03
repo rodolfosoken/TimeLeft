@@ -3,7 +3,7 @@ using System.Collections;
 
 public class EnemyBehaviour : MonoBehaviour {
 
-    private Animation anim;
+    private Animator anim;
    
     Transform player;               // Reference to the player's position.
     public float moveSpeed = 0.0F;
@@ -25,7 +25,7 @@ public class EnemyBehaviour : MonoBehaviour {
 
         lastPosition = transform.position;
 
-         anim = GetComponent<Animation>();
+         anim = GetComponent<Animator>();
          
          EnemyRigidbody = GetComponent<Rigidbody>();
       
@@ -41,7 +41,8 @@ public class EnemyBehaviour : MonoBehaviour {
 
         if (dist > range)
         {
-            anim.CrossFade("loop_idle");
+            anim.SetTrigger("idle");
+            anim.SetBool("IsWalking", false);
         }
         else
         {
@@ -83,25 +84,20 @@ public class EnemyBehaviour : MonoBehaviour {
     {
         // Create a boolean that is true if either of the input axes is non-zero.
         IsWalking = distance > 12;
-        print("distancia: " + distance + IsWalking);
+        //print("distancia: " + distance + IsWalking);
         if (IsWalking)
         {
             // Tell the animator whether or not the player is walking.
-            anim.CrossFade("loop_walk_funny");
+            anim.SetBool("IsWalking",true);
         }
         else
         {
-            StartCoroutine(punch());
+            anim.SetBool("IsWalking", false);
+            anim.SetTrigger("punch");
         }
 
         
     }
 
-    IEnumerator punch()
-    {
-        anim.CrossFade("punch_hi_left");
-        yield return new WaitForSeconds(0.6f);
-        PlayerBehaviour._instance.Hit();
-    }
 
 }

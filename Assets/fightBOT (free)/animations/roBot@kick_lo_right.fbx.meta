@@ -513,7 +513,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .100000001
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -534,223 +534,7 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 1
   humanDescription:
-    human:
-    - boneName: robo_rigg_2014:Main
-      humanName: Hips
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:Hip_L
-      humanName: LeftUpperLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:Hip_R
-      humanName: RightUpperLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:Knee_L
-      humanName: LeftLowerLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:Knee_R
-      humanName: RightLowerLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:Ankle_L
-      humanName: LeftFoot
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:Ankle_R
-      humanName: RightFoot
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKSystem
-      humanName: Spine
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKOffsetRoot_M
-      humanName: Neck
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKXBackA_M
-      humanName: Head
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKXScapula_L
-      humanName: LeftShoulder
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKXScapula_R
-      humanName: RightShoulder
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKXShoulder_L
-      humanName: LeftUpperArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKXShoulder_R
-      humanName: RightUpperArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKOffsetElbow_L
-      humanName: LeftLowerArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKOffsetElbow_R
-      humanName: RightLowerArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKOffsetWrist_L
-      humanName: LeftHand
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKOffsetWrist_R
-      humanName: RightHand
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:MiddleToe1_L
-      humanName: LeftToes
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:MiddleToe1_R
-      humanName: RightToes
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKOffsetBackB_M
-      humanName: RightEye
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKElbow_L
-      humanName: Left Thumb Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKXElbow_L
-      humanName: Left Thumb Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKOffsetWrist_L
-      humanName: Left Thumb Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKElbow_R
-      humanName: Right Thumb Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKXElbow_R
-      humanName: Right Thumb Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: robo_rigg_2014:FKOffsetWrist_R
-      humanName: Right Thumb Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
+    human: []
     skeleton:
     - name: roBot(Clone)
       position: {x: -0, y: 0, z: 0}
@@ -843,122 +627,122 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Root_M
-      position: {x: -9.86076132e-32, y: 6.01530552, z: 0}
+      position: {x: -9.86076132e-31, y: 60.1530533, z: 0}
       rotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:BackA_M
-      position: {x: -.790664315, y: 2.56869987e-17, z: 6.0791151e-17}
+      position: {x: -7.90664291, y: 2.56869994e-16, z: 6.07911523e-16}
       rotation: {x: .707106829, y: 0, z: 0, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:BackB_M
-      position: {x: -.790664315, y: 2.85209294e-17, z: -1.86049093e-16}
+      position: {x: -7.90664291, y: 2.85209281e-16, z: -1.86049093e-15}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Chest_M
-      position: {x: -.688455105, y: -4.98842478e-16, z: -3.60388802e-16}
+      position: {x: -6.88455105, y: -4.98842478e-15, z: -3.60388802e-15}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Scapula_L
-      position: {x: -.328485072, y: -4.52408556e-16, z: 1.37273788}
+      position: {x: -3.2848506, y: -4.52408556e-15, z: 13.7273788}
       rotation: {x: .500000119, y: .499999911, z: .500000119, w: -.499999911}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Shoulder_L
-      position: {x: .692062497, y: 5.32907052e-15, z: 4.16041831e-16}
+      position: {x: 6.92062473, y: 5.32907052e-14, z: 4.16041831e-15}
       rotation: {x: .999982655, y: 2.5792124e-10, z: .00589336222, w: -4.37639436e-08}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Elbow_L
-      position: {x: 1.79718268, y: 9.5391961e-10, z: -1.92990804e-10}
+      position: {x: 17.9718266, y: 9.5391961e-09, z: -1.92990801e-09}
       rotation: {x: 0, y: -.00188146578, z: -0, w: .999998271}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Scapula_R
-      position: {x: -.328485072, y: 2.43521681e-16, z: -1.37273788}
+      position: {x: -3.2848506, y: 2.43521676e-15, z: -13.7273788}
       rotation: {x: .5, y: -.5, z: .5, w: .5}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Shoulder_R
-      position: {x: -.692062497, y: -1.77635684e-15, z: -4.89346127e-16}
+      position: {x: -6.92062473, y: -1.77635684e-14, z: -4.89346138e-15}
       rotation: {x: .999982655, y: 2.5652086e-10, z: .00589336222, w: -4.35263274e-08}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Elbow_R
-      position: {x: -1.79718268, y: -1.5656898e-09, z: 1.92992095e-10}
+      position: {x: -17.9718266, y: -1.5656898e-08, z: 1.92992089e-09}
       rotation: {x: 0, y: -.00188146578, z: -0, w: .999998271}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Neck_M
-      position: {x: -.80956316, y: -1.04116168e-15, z: 4.76355786e-15}
+      position: {x: -8.0956316, y: -1.04116172e-14, z: 4.76355778e-14}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Head_M
-      position: {x: -.590716958, y: -1.80696565e-15, z: 4.33012825e-16}
+      position: {x: -5.90716934, y: -1.80696556e-14, z: 4.33012814e-15}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Hair_M
-      position: {x: -2.16139126, y: 2.58496943e-15, z: -2.36638691e-16}
+      position: {x: -21.6139126, y: 2.58496939e-14, z: -2.36638686e-15}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Nose_M
-      position: {x: -5.32907052e-15, y: 1, z: -1.20736754e-15}
+      position: {x: -5.32907052e-14, y: 10, z: -1.20736754e-14}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Hip_R
-      position: {x: .352549136, y: 1.16942632, z: .102862321}
+      position: {x: 3.52549124, y: 11.6942635, z: 1.02862322}
       rotation: {x: .0057548359, y: -.707083404, z: .707083344, w: .00575479399}
       scale: {x: 1.00000048, y: .999999583, z: 1.00000012}
       transformModified: 1
     - name: robo_rigg_2014:Knee_R
-      position: {x: -2.74887609, y: -1.48665802e-15, z: -1.55431223e-15}
+      position: {x: -27.4887619, y: -1.48665802e-14, z: -1.55431223e-14}
       rotation: {x: 2.7960569e-08, y: 3.15367004e-08, z: -.0518716983, w: .998653829}
       scale: {x: .999999166, y: 1.00000012, z: .999999642}
       transformModified: 1
     - name: robo_rigg_2014:Ankle_R
-      position: {x: -1.9579711, y: 2.1649349e-15, z: 2.70450329e-13}
+      position: {x: -19.5797119, y: 2.1649349e-14, z: 2.70450329e-12}
       rotation: {x: .000166858314, y: 1.00589832e-05, z: -.0599974617, w: -.998198569}
       scale: {x: .999999523, y: 1.00000012, z: .999999881}
       transformModified: 1
     - name: robo_rigg_2014:MiddleToe1_R
-      position: {x: -.715729356, y: -.890267074, z: -.000298128813}
+      position: {x: -7.15729332, y: -8.90267086, z: -.00298128813}
       rotation: {x: -.000143200523, y: 8.71683806e-05, z: -.516776264, w: -.856120527}
       scale: {x: .999999881, y: 1.0000006, z: 1.00000036}
       transformModified: 1
     - name: robo_rigg_2014:MiddleToe2_R
-      position: {x: -.584037304, y: 2.17977858e-11, z: -1.14463994e-12}
+      position: {x: -5.84037304, y: 2.17977858e-10, z: -1.14463994e-11}
       rotation: {x: -3.0686703e-08, y: -7.58514229e-09, z: 3.13804556e-08, w: 1}
       scale: {x: .99999994, y: 1.00000012, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Hip_L
-      position: {x: .352549136, y: -1.16942632, z: .102862321}
+      position: {x: 3.52549124, y: -11.6942635, z: 1.02862322}
       rotation: {x: .707083344, y: .00575479399, z: -.0057548359, w: .707083404}
       scale: {x: 1.00000048, y: .999999583, z: 1.00000012}
       transformModified: 1
     - name: robo_rigg_2014:Knee_L
-      position: {x: 2.74887609, y: 2.38524478e-15, z: 5.77315973e-15}
+      position: {x: 27.4887619, y: 2.38524478e-14, z: 5.77315973e-14}
       rotation: {x: 2.7960569e-08, y: 3.15367004e-08, z: -.0518716983, w: .998653829}
       scale: {x: .999999106, y: 1, z: .999999285}
       transformModified: 1
     - name: robo_rigg_2014:Ankle_L
-      position: {x: 1.9579711, y: -7.77156117e-16, z: -1.96953565e-13}
+      position: {x: 19.5797119, y: -7.77156117e-15, z: -1.96953565e-12}
       rotation: {x: -.000167099861, y: -1.00138241e-05, z: .0599977225, w: .998198509}
       scale: {x: 1.00000024, y: 1.00000024, z: 1.00000083}
       transformModified: 1
     - name: robo_rigg_2014:MiddleToe1_L
-      position: {x: .715729356, y: .890267074, z: .000298129133}
+      position: {x: 7.15729332, y: 8.90267086, z: .00298129139}
       rotation: {x: .000143161553, y: -8.72260716e-05, z: .516776204, w: .856120527}
       scale: {x: .999999583, y: .999999642, z: .999999404}
       transformModified: 1
     - name: robo_rigg_2014:MiddleToe2_L
-      position: {x: .584037304, y: 5.031775e-11, z: 2.35900188e-12}
+      position: {x: 5.84037304, y: 5.031775e-10, z: 2.35900188e-11}
       rotation: {x: -2.0342215e-08, y: 3.83870713e-08, z: 5.7820404e-10, w: 1}
       scale: {x: .999999881, y: 1, z: .999999881}
       transformModified: 1
@@ -973,252 +757,252 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Root
-      position: {x: -0, y: 6.01530552, z: 0}
+      position: {x: -0, y: 60.1530533, z: 0}
       rotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:BackA
-      position: {x: -.790664315, y: 2.56869987e-17, z: 6.0791151e-17}
+      position: {x: -7.90664291, y: 2.56869994e-16, z: 6.07911523e-16}
       rotation: {x: .707106829, y: -1.66387407e-16, z: -2.55068355e-17, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:BackB
-      position: {x: -.790664315, y: 2.85209294e-17, z: -1.86049093e-16}
+      position: {x: -7.90664291, y: 2.85209281e-16, z: -1.86049093e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Chest
-      position: {x: -.688455105, y: -4.98842478e-16, z: -3.60388802e-16}
+      position: {x: -6.88455105, y: -4.98842478e-15, z: -3.60388802e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Neck
-      position: {x: -.80956316, y: -1.04116168e-15, z: 4.76355786e-15}
+      position: {x: -8.0956316, y: -1.04116172e-14, z: 4.76355778e-14}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Head
-      position: {x: -.590716958, y: -1.74138295e-15, z: -2.60664778e-17}
+      position: {x: -5.90716934, y: -1.74138302e-14, z: -2.60664781e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Hair
-      position: {x: -2.16139126, y: 2.03476076e-15, z: 2.92984488e-16}
+      position: {x: -21.6139126, y: 2.03476084e-14, z: 2.92984482e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Nose
-      position: {x: -0, y: 1, z: 2.91433544e-16}
+      position: {x: -0, y: 10, z: 2.91433544e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Scapula
-      position: {x: -.328485072, y: 2.43521628e-16, z: -1.37273788}
+      position: {x: -3.2848506, y: 2.43521634e-15, z: -13.7273788}
       rotation: {x: .5, y: -.5, z: .5, w: .5}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Shoulder
-      position: {x: -.692062497, y: 2.39442244e-10, z: -6.71416018e-17}
+      position: {x: -6.92062473, y: 2.39442244e-09, z: -6.71416018e-16}
       rotation: {x: .999982655, y: 1.97670321e-15, z: .00589336222, w: 4.95795185e-17}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Elbow
-      position: {x: -1.79718268, y: 7.10542736e-15, z: 8.95117314e-16}
+      position: {x: -17.9718266, y: 7.10542736e-14, z: 8.95117314e-15}
       rotation: {x: 5.29631699e-34, y: -.00188146578, z: -4.03700111e-16, w: .999998271}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Elbow_twistLocator1
-      position: {x: -.440019697, y: 7.10542746e-16, z: -9.94170024e-15}
-      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: robo_rigg_2014:Elbow_twistLocator2
-      position: {x: -.880039394, y: 1.42108549e-15, z: -1.98834005e-14}
-      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: robo_rigg_2014:Elbow_twistLocator3
-      position: {x: -1.32005906, y: 2.13162829e-15, z: -2.98251007e-14}
-      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: robo_rigg_2014:Elbow_twistLocator4
-      position: {x: -1.76007879, y: 2.84217099e-15, z: -3.9766801e-14}
-      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: robo_rigg_2014:Elbow_twistLocator5
-      position: {x: -2.20009851, y: 3.55271368e-15, z: -4.97085012e-14}
-      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: robo_rigg_2014:Elbow_twistLocator6
-      position: {x: -2.64011812, y: 4.26325658e-15, z: -5.96502014e-14}
-      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: robo_rigg_2014:Elbow_twistLocator7
-      position: {x: -3.08013797, y: 4.97379907e-15, z: -6.95919017e-14}
-      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: robo_rigg_2014:Elbow_twistLocator8
-      position: {x: -3.52015758, y: 5.68434197e-15, z: -7.95336019e-14}
-      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: robo_rigg_2014:Elbow_twistLocator9
-      position: {x: -3.96017718, y: 6.39488488e-15, z: -8.94753022e-14}
-      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: robo_rigg_2014:Elbow_twistLocator10
       position: {x: -4.40019703, y: 7.10542736e-15, z: -9.94170024e-14}
       rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
+    - name: robo_rigg_2014:Elbow_twistLocator2
+      position: {x: -8.80039406, y: 1.42108547e-14, z: -1.98834005e-13}
+      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: robo_rigg_2014:Elbow_twistLocator3
+      position: {x: -13.2005901, y: 2.13162821e-14, z: -2.98251007e-13}
+      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: robo_rigg_2014:Elbow_twistLocator4
+      position: {x: -17.6007881, y: 2.84217094e-14, z: -3.9766801e-13}
+      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: robo_rigg_2014:Elbow_twistLocator5
+      position: {x: -22.0009842, y: 3.55271368e-14, z: -4.97085012e-13}
+      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: robo_rigg_2014:Elbow_twistLocator6
+      position: {x: -26.4011803, y: 4.26325641e-14, z: -5.96502014e-13}
+      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: robo_rigg_2014:Elbow_twistLocator7
+      position: {x: -30.8013802, y: 4.97379915e-14, z: -6.95919017e-13}
+      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: robo_rigg_2014:Elbow_twistLocator8
+      position: {x: -35.2015762, y: 5.68434189e-14, z: -7.95336019e-13}
+      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: robo_rigg_2014:Elbow_twistLocator9
+      position: {x: -39.6017723, y: 6.39488462e-14, z: -8.94753022e-13}
+      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: robo_rigg_2014:Elbow_twistLocator10
+      position: {x: -44.0019684, y: 7.10542736e-14, z: -9.94170024e-13}
+      rotation: {x: -9.79075855e-17, y: -8.67361738e-19, z: 4.96004991e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: robo_rigg_2014:Wrist
-      position: {x: -2.20009851, y: 3.55271368e-15, z: -4.97085012e-14}
+      position: {x: -22.0009842, y: 3.55271368e-14, z: -4.97085012e-13}
       rotation: {x: .999048233, y: -2.68111963e-18, z: .0436193869, w: -6.09403876e-17}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Cup
-      position: {x: -.096055977, y: -.00113987282, z: .0559434183}
+      position: {x: -.960559785, y: -.011398728, z: .559434175}
       rotation: {x: -.000249665871, y: .0404842384, z: .00593321119, w: .999162555}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PinkyFinger1
-      position: {x: -.433318198, y: -.0677813366, z: .147673756}
+      position: {x: -4.33318186, y: -.677813351, z: 1.4767375}
       rotation: {x: .00773216784, y: .13773185, z: .0686258003, w: .988059044}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PinkyFinger2
-      position: {x: -.177680656, y: 9.76996262e-15, z: 2.22044605e-16}
+      position: {x: -1.77680659, y: 9.76996262e-14, z: 2.22044605e-15}
       rotation: {x: 0, y: 0, z: -.00628314354, w: .999980271}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PinkyFinger3
-      position: {x: -.0872500911, y: 1.77635684e-15, z: 4.4408921e-16}
+      position: {x: -.872500896, y: 1.77635684e-14, z: 4.4408921e-15}
       rotation: {x: 0, y: 0, z: -.0502443165, w: .998736978}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PinkyFinger4
-      position: {x: -.122871809, y: 3.10862447e-15, z: -6.66133815e-16}
+      position: {x: -1.22871804, y: 3.10862447e-14, z: -6.66133815e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:RingFinger1
-      position: {x: -.476135403, y: -.0396022685, z: .0411489159}
+      position: {x: -4.76135397, y: -.396022677, z: .411489159}
       rotation: {x: -.000310975447, y: .0247453358, z: .0125621911, w: .999614835}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:RingFinger2
-      position: {x: -.234472528, y: 1.77635684e-15, z: -3.05311332e-16}
+      position: {x: -2.34472537, y: 1.77635684e-14, z: -3.05311332e-15}
       rotation: {x: 0, y: 0, z: .0188484397, w: .999822378}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:RingFinger3
-      position: {x: -.120008685, y: -4.4408921e-16, z: -2.08166817e-16}
+      position: {x: -1.20008683, y: -4.4408921e-15, z: -2.08166817e-15}
       rotation: {x: 0, y: 0, z: -.0376901887, w: .999289513}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:RingFinger4
-      position: {x: -.138641953, y: -4.88498131e-15, z: 3.1918912e-16}
+      position: {x: -1.38641953, y: -4.88498131e-14, z: 3.1918912e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Fingers
-      position: {x: -8.8817842e-16, y: 0, z: 2.11257323e-08}
+      position: {x: -8.8817842e-15, y: 0, z: 2.11257316e-07}
       rotation: {x: 7.76479073e-17, y: 5.26658938e-33, z: 6.78265471e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IndexFinger1
-      position: {x: -.587246358, y: -.0174443647, z: -.124655731}
+      position: {x: -5.8724637, y: -.174443647, z: -1.24655735}
       rotation: {x: -.00169625529, y: -.138188735, z: .0277268533, w: .990016282}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IndexFinger2
-      position: {x: -.208806738, y: 2.22044605e-15, z: -4.4408921e-16}
+      position: {x: -2.08806729, y: 2.22044605e-14, z: -4.4408921e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IndexFinger3
-      position: {x: -.120467819, y: 1.33226763e-15, z: 0}
+      position: {x: -1.20467818, y: 1.33226763e-14, z: 0}
       rotation: {x: 0, y: 0, z: -.0502443202, w: .998736978}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IndexFinger4
-      position: {x: -.130426645, y: 3.99680289e-15, z: -4.4408921e-16}
+      position: {x: -1.30426645, y: 3.99680289e-14, z: -4.4408921e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:MiddleFinger1
-      position: {x: -.578570545, y: -2.66453526e-15, z: -1.11022302e-16}
+      position: {x: -5.78570557, y: -2.66453526e-14, z: -1.11022302e-15}
       rotation: {x: .000207478675, y: .00727183232, z: .0416600481, w: .999105394}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:MiddleFinger2
-      position: {x: -.255589366, y: 1.77635684e-15, z: 6.10622664e-16}
+      position: {x: -2.55589366, y: 1.77635684e-14, z: 6.10622664e-15}
       rotation: {x: 0, y: 0, z: -.0219893772, w: .999758244}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:MiddleFinger3
-      position: {x: -.116218559, y: 3.55271368e-15, z: -2.22044605e-16}
+      position: {x: -1.16218555, y: 3.55271368e-14, z: -2.22044605e-15}
       rotation: {x: 0, y: 0, z: -.0320326053, w: .999486864}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:MiddleFinger4
-      position: {x: -.154294446, y: -1.33226763e-15, z: 0}
+      position: {x: -1.54294443, y: -1.33226763e-14, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:ThumbFinger1
-      position: {x: -.160400271, y: -.10091871, z: -.156752899}
+      position: {x: -1.60400271, y: -1.0091871, z: -1.56752896}
       rotation: {x: -.687893689, y: -.343262166, z: -.112263151, w: .629579604}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:ThumbFinger2
-      position: {x: -.295830905, y: 4.4408921e-16, z: 1.77635684e-15}
+      position: {x: -2.95830917, y: 4.4408921e-15, z: 1.77635684e-14}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:ThumbFinger3
-      position: {x: -.113634296, y: -4.4408921e-15, z: 2.66453526e-15}
+      position: {x: -1.136343, y: -4.4408921e-14, z: 2.66453526e-14}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:ThumbFinger4
-      position: {x: -.148237869, y: -1.51437661e-07, z: -2.71369458e-07}
+      position: {x: -1.48237872, y: -1.51437666e-06, z: -2.71369458e-06}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Hip
-      position: {x: .352549136, y: 1.16942632, z: .102862321}
+      position: {x: 3.52549124, y: 11.6942635, z: 1.02862322}
       rotation: {x: .00575482799, y: -.707083404, z: .707083404, w: .00575482799}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Knee
-      position: {x: -2.74887609, y: -2.55004351e-16, z: -5.35127498e-14}
+      position: {x: -27.4887619, y: -2.55004351e-15, z: -5.35127498e-13}
       rotation: {x: -3.94962152e-31, y: 6.0129141e-14, z: -.0518714339, w: .998653769}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Ankle
-      position: {x: -1.9579711, y: 1.38777878e-15, z: 2.34923192e-13}
+      position: {x: -19.5797119, y: 1.38777878e-14, z: 2.34923192e-12}
       rotation: {x: -.000167136139, y: -1.00458174e-05, z: .0599973202, w: .998198569}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:Heel
-      position: {x: -.922898352, y: .593600571, z: .000198782305}
+      position: {x: -9.22898388, y: 5.93600559, z: .00198782305}
       rotation: {x: .000770037761, y: .0188456345, z: -.0408189408, w: .998988509}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:MiddleToe1
-      position: {x: -.715729356, y: -.890267074, z: -.000298128667}
+      position: {x: -7.15729332, y: -8.90267086, z: -.00298128673}
       rotation: {x: .000143165773, y: -8.71970769e-05, z: .516776383, w: .856120467}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:MiddleToe2
-      position: {x: -.584037304, y: 3.33066907e-16, z: -6.66133815e-16}
+      position: {x: -5.84037304, y: 3.33066907e-15, z: -6.66133815e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1248,7 +1032,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKIKParentConstraintArm_L
-      position: {x: -3.06407118, y: 7.42715216, z: .00970878638}
+      position: {x: -30.6407127, y: 74.2715225, z: .0970878601}
       rotation: {x: 1.80565948e-07, y: 8.73148736e-08, z: 2.39745304e-07, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1258,7 +1042,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKIKParentConstraintArm_R
-      position: {x: 3.06407285, y: 7.42715263, z: .00970845297}
+      position: {x: 30.640728, y: 74.2715302, z: .0970845297}
       rotation: {x: 1.79676469e-08, y: -2.11218332e-08, z: -8.14603354e-08, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1268,7 +1052,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKIKParentConstraintLeg_L
-      position: {x: -2.35584784, y: 4.48965979, z: .0330460221}
+      position: {x: -23.5584793, y: 44.8965988, z: .330460221}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1278,7 +1062,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKIKParentConstraintLeg_R
-      position: {x: 2.35584784, y: 4.48965979, z: .033046063}
+      position: {x: 23.5584793, y: 44.8965988, z: .330460638}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1288,7 +1072,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKIKParentConstraintSpine_M
-      position: {x: -1.18642139, y: 6.58275175, z: -9.03582124e-17}
+      position: {x: -11.8642139, y: 65.8275146, z: -9.03582137e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1303,42 +1087,42 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKParentConstraintFingers_L
-      position: {x: -6.06188583, y: 8.61357212, z: .03883655}
+      position: {x: -60.6188583, y: 86.1357193, z: .388365507}
       rotation: {x: -.0396108367, y: -1.90457385e-07, z: .999215186, w: -2.41054551e-07}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetFingers_L
-      position: {x: 7.1618679e-08, y: -2.30251953e-06, z: -8.37306402e-07}
+      position: {x: 7.16186776e-07, y: -2.30251953e-05, z: -8.37306379e-06}
       rotation: {x: 1.99911298e-07, y: 8.73148736e-08, z: -2.34013598e-07, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKParentConstraintFingers_R
-      position: {x: 6.06188583, y: 8.61357403, z: .0388359316}
+      position: {x: 60.6188583, y: 86.1357422, z: .388359308}
       rotation: {x: 8.47079633e-08, y: .999215186, z: 2.15610445e-08, w: -.0396109037}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetFingers_R
-      position: {x: -1.73534787e-08, y: 7.6025043e-07, z: 2.18883045e-07}
+      position: {x: -1.73534787e-07, y: 7.60250441e-06, z: 2.18883042e-06}
       rotation: {x: 1.83377278e-08, y: 2.11218332e-08, z: -8.41349532e-08, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKParentConstraintToAnkle_L
-      position: {x: -1.16942632, y: .970369637, z: -.176403046}
+      position: {x: -11.6942635, y: 9.70369625, z: -1.76403046}
       rotation: {x: .499916255, y: -.499916375, z: -.500083625, w: .500083745}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetMiddleToe1_L
-      position: {x: .715729356, y: .890267074, z: .000298128667}
+      position: {x: 7.15729332, y: 8.90267086, z: .00298128673}
       rotation: {x: .000143165671, y: -8.71971934e-05, z: .516776204, w: .856120527}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraMiddleToe1_L
-      position: {x: -3.33066907e-16, y: 0, z: -2.22044605e-16}
+      position: {x: -3.33066907e-15, y: 0, z: -2.22044605e-15}
       rotation: {x: -1.66533454e-16, y: -2.08166817e-17, z: 5.62013769e-11, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKMiddleToe1_L
-      position: {x: -1.11022302e-16, y: -1.11022302e-16, z: 2.22044605e-16}
+      position: {x: -1.11022302e-15, y: -1.11022302e-15, z: 2.22044605e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1348,27 +1132,27 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKXMiddleToe2_L
-      position: {x: .584037304, y: 5.18672882e-11, z: 2.22044605e-16}
+      position: {x: 5.84037304, y: 5.18672882e-10, z: 2.22044605e-15}
       rotation: {x: 7.92045951e-18, y: -8.27702067e-18, z: 1.72403952e-10, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKParentConstraintToAnkle_R
-      position: {x: 1.16942632, y: .970369637, z: -.176403046}
+      position: {x: 11.6942635, y: 9.70369625, z: -1.76403046}
       rotation: {x: .500083685, y: .500083566, z: -.499916494, w: -.499916375}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetMiddleToe1_R
-      position: {x: -.715729356, y: -.890267074, z: -.000298128667}
+      position: {x: -7.15729332, y: -8.90267086, z: -.00298128673}
       rotation: {x: .000143165671, y: -8.71971934e-05, z: .516776204, w: .856120527}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraMiddleToe1_R
-      position: {x: 1.11022302e-16, y: 0, z: 0}
+      position: {x: 1.11022302e-15, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKMiddleToe1_R
-      position: {x: -0, y: 0, z: -2.22044605e-16}
+      position: {x: -0, y: 0, z: -2.22044605e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1378,17 +1162,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKXMiddleToe2_R
-      position: {x: -.584037304, y: 2.17003082e-11, z: -4.4408921e-16}
+      position: {x: -5.84037304, y: 2.17003082e-10, z: -4.4408921e-15}
       rotation: {x: -1.88029059e-16, y: -2.85252506e-16, z: 5.68173286e-11, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKParentConstraintToChest_M
-      position: {x: -1.19185138e-15, y: 8.28508949, z: -4.09530371e-16}
+      position: {x: -1.19185142e-14, y: 82.8508911, z: -4.0953035e-15}
       rotation: {x: .5, y: -.5, z: -.5, w: .5}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetNeck_M
-      position: {x: -.80956316, y: -9.51282057e-16, z: 4.8534378e-15}
+      position: {x: -8.0956316, y: -9.51282035e-15, z: 4.8534378e-14}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1398,7 +1182,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKNeck_M
-      position: {x: -0, y: 1.97215226e-31, z: -1.57772181e-30}
+      position: {x: -0, y: 1.97215226e-30, z: -1.57772181e-29}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1408,17 +1192,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetHead_M
-      position: {x: -.590716958, y: -1.74138295e-15, z: 4.98595568e-16}
+      position: {x: -5.90716934, y: -1.74138302e-14, z: 4.98595568e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraHead_M
-      position: {x: -1.77635684e-15, y: 3.94430453e-31, z: 0}
+      position: {x: -1.77635684e-14, y: 3.94430453e-30, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKHead_M
-      position: {x: -1.77635684e-15, y: 7.88860905e-31, z: 0}
+      position: {x: -1.77635684e-14, y: 7.88860905e-30, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1428,27 +1212,27 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKXHair_M
-      position: {x: -2.16139126, y: 2.15474213e-15, z: 2.45264827e-15}
+      position: {x: -21.6139126, y: 2.15474204e-14, z: 2.45264827e-14}
       rotation: {x: -3.06161713e-17, y: -1.11022302e-16, z: -3.06161713e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKXNose_M
-      position: {x: 3.55271368e-15, y: 1, z: 5.689893e-16}
+      position: {x: 3.55271368e-14, y: 10, z: 5.689893e-15}
       rotation: {x: -1.41638467e-16, y: 2.22044605e-16, z: 2.48949816e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetScapula_L
-      position: {x: -.328485072, y: -4.15940637e-16, z: 1.37273788}
+      position: {x: -3.2848506, y: -4.15940653e-15, z: 13.7273788}
       rotation: {x: .500000119, y: .499999911, z: .500000119, w: -.499999911}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraScapula_L
-      position: {x: -0, y: -1.77635684e-15, z: -1.32348898e-23}
+      position: {x: -0, y: -1.77635684e-14, z: -1.32348898e-22}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKScapula_L
-      position: {x: -0, y: -1.77635684e-15, z: -1.32348898e-23}
+      position: {x: -0, y: -1.77635684e-14, z: -1.32348898e-22}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1458,7 +1242,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetShoulder_L
-      position: {x: .692062497, y: 3.55271368e-15, z: 4.54459117e-16}
+      position: {x: 6.92062473, y: 3.55271368e-14, z: 4.54459095e-15}
       rotation: {x: .999982655, y: -9.27267241e-09, z: .00589334546, w: -5.66470391e-08}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1478,17 +1262,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetElbow_L
-      position: {x: 1.79718268, y: -9.00042707e-10, z: -5.75928194e-16}
+      position: {x: 17.9718266, y: -9.00042707e-09, z: -5.75928194e-15}
       rotation: {x: 1.33474041e-08, y: -.00188144366, z: 2.30903385e-08, w: .999998212}
       scale: {x: .999999762, y: 1, z: .999999702}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraElbow_L
-      position: {x: -0, y: -1.77635684e-15, z: -1.73472348e-18}
+      position: {x: -0, y: -1.77635684e-14, z: -1.73472348e-17}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKElbow_L
-      position: {x: -0, y: -1.77635684e-15, z: 0}
+      position: {x: -0, y: -1.77635684e-14, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1498,22 +1282,22 @@ ModelImporter:
       scale: {x: .999999762, y: 1, z: .999999762}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetWrist_L
-      position: {x: 2.20009851, y: -9.93090055e-10, z: 5.02983072e-14}
+      position: {x: 22.0009842, y: -9.93090055e-09, z: 5.02983072e-13}
       rotation: {x: -.999048293, y: 3.93222743e-09, z: -.0436193906, w: -6.07379533e-08}
       scale: {x: .99999994, y: .999999523, z: 1.00000012}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraWrist_L
-      position: {x: 8.8817842e-16, y: 1.77635684e-15, z: 0}
+      position: {x: 8.8817842e-15, y: 1.77635684e-14, z: 0}
       rotation: {x: -6.54797461e-09, y: 2.08166817e-17, z: -5.21061416e-10, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetScapula_R
-      position: {x: -.328485072, y: 2.79990817e-16, z: -1.37273788}
+      position: {x: -3.2848506, y: 2.79990806e-15, z: -13.7273788}
       rotation: {x: .5, y: -.5, z: .5, w: .5}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraScapula_R
-      position: {x: 2.22044605e-16, y: 1.77635684e-15, z: 6.6174449e-24}
+      position: {x: 2.22044605e-15, y: 1.77635684e-14, z: 6.6174449e-23}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1528,17 +1312,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetShoulder_R
-      position: {x: -.692062497, y: -1.77635684e-15, z: -4.54459117e-16}
+      position: {x: -6.92062473, y: -1.77635684e-14, z: -4.54459095e-15}
       rotation: {x: -.999982655, y: -6.71615208e-09, z: -.00589335477, w: 4.04978735e-08}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraShoulder_R
-      position: {x: 4.4408921e-16, y: 0, z: 0}
+      position: {x: 4.4408921e-15, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKShoulder_R
-      position: {x: 4.4408921e-16, y: 0, z: 6.9388939e-18}
+      position: {x: 4.4408921e-15, y: 0, z: 6.9388939e-17}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1548,17 +1332,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetElbow_R
-      position: {x: -1.79718268, y: 2.78204126e-10, z: 8.67361738e-16}
+      position: {x: -17.9718266, y: 2.78204126e-09, z: 8.67361738e-15}
       rotation: {x: -3.79875287e-09, y: -.0018814496, z: 8.08331624e-09, w: .999998271}
       scale: {x: .999999762, y: .999999762, z: .999999881}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraElbow_R
-      position: {x: 4.4408921e-16, y: 1.77635684e-15, z: 0}
+      position: {x: 4.4408921e-15, y: 1.77635684e-14, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKElbow_R
-      position: {x: 4.4408921e-16, y: 1.77635684e-15, z: 0}
+      position: {x: 4.4408921e-15, y: 1.77635684e-14, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1568,32 +1352,32 @@ ModelImporter:
       scale: {x: .999999762, y: .999999762, z: .99999994}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetWrist_R
-      position: {x: -2.20009851, y: -1.0883916e-10, z: -4.97206443e-14}
+      position: {x: -22.0009842, y: -1.0883916e-09, z: -4.97206443e-13}
       rotation: {x: .999048293, y: -1.84929352e-08, z: .0436194129, w: 7.82265701e-08}
       scale: {x: .99999994, y: 1, z: .999999523}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraWrist_R
-      position: {x: -0, y: -3.55271368e-15, z: 1.11022302e-16}
+      position: {x: -0, y: -3.55271368e-14, z: 1.11022302e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKParentConstraintToRoot_M
-      position: {x: -9.86076132e-32, y: 6.01530552, z: 0}
+      position: {x: -9.86076132e-31, y: 60.1530533, z: 0}
       rotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetHip_L
-      position: {x: .352549136, y: -1.16942632, z: .102862321}
+      position: {x: 3.52549124, y: -11.6942635, z: 1.02862322}
       rotation: {x: .707083344, y: .00575480517, z: -.0057548047, w: .707083404}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraHip_L
-      position: {x: -0, y: 0, z: -2.22044605e-16}
+      position: {x: -0, y: 0, z: -2.22044605e-15}
       rotation: {x: 0, y: 0, z: 1.11022302e-16, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKHip_L
-      position: {x: -0, y: -1.21430643e-17, z: -2.22044605e-16}
+      position: {x: -0, y: -1.21430643e-16, z: -2.22044605e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1603,17 +1387,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetKnee_L
-      position: {x: 2.74887609, y: 2.4164698e-15, z: 5.57331958e-14}
+      position: {x: 27.4887619, y: 2.4164698e-14, z: 5.57331958e-13}
       rotation: {x: 5.46590953e-24, y: 6.0129141e-14, z: -.0518714339, w: .998653769}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraKnee_L
-      position: {x: -0, y: 0, z: -6.66133815e-16}
+      position: {x: -0, y: 0, z: -6.66133815e-15}
       rotation: {x: 5.55111512e-17, y: 1.66533454e-16, z: 2.77555756e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKKnee_L
-      position: {x: -0, y: 0, z: -6.66133815e-16}
+      position: {x: -0, y: 0, z: -6.66133815e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1623,17 +1407,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetAnkle_L
-      position: {x: 1.9579711, y: -1.11022302e-15, z: -2.32036612e-13}
+      position: {x: 19.5797119, y: -1.11022302e-14, z: -2.32036612e-12}
       rotation: {x: -.000167136139, y: -1.00458165e-05, z: .0599973202, w: .998198569}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraAnkle_L
-      position: {x: 1.11022302e-16, y: 0, z: 0}
+      position: {x: 1.11022302e-15, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKAnkle_L
-      position: {x: 1.11022302e-16, y: 0, z: 0}
+      position: {x: 1.11022302e-15, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1648,22 +1432,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKXHeel_L
-      position: {x: .922898352, y: -.593600571, z: -.000198782305}
+      position: {x: 9.22898388, y: -5.93600559, z: -.00198782305}
       rotation: {x: .000770037761, y: .0188456345, z: -.0408189408, w: .998988509}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetHip_R
-      position: {x: .352549136, y: 1.16942632, z: .102862321}
+      position: {x: 3.52549124, y: 11.6942635, z: 1.02862322}
       rotation: {x: -.00575480517, y: .707083404, z: -.707083344, w: -.0057548047}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraHip_R
-      position: {x: 8.8817842e-16, y: -1.21430643e-17, z: 2.22044605e-16}
+      position: {x: 8.8817842e-15, y: -1.21430643e-16, z: 2.22044605e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKHip_R
-      position: {x: -0, y: 0, z: 2.22044605e-16}
+      position: {x: -0, y: 0, z: 2.22044605e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1673,17 +1457,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetKnee_R
-      position: {x: -2.74887609, y: -1.31838984e-15, z: -5.59552404e-14}
+      position: {x: -27.4887619, y: -1.31838984e-14, z: -5.59552404e-13}
       rotation: {x: 5.46590953e-24, y: 6.0129141e-14, z: -.0518714339, w: .998653769}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraKnee_R
-      position: {x: -4.4408921e-16, y: -5.55111512e-17, z: 0}
+      position: {x: -4.4408921e-15, y: -5.55111512e-16, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKKnee_R
-      position: {x: -4.4408921e-16, y: -5.55111512e-17, z: 0}
+      position: {x: -4.4408921e-15, y: -5.55111512e-16, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1693,17 +1477,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetAnkle_R
-      position: {x: -1.9579711, y: 2.33146835e-15, z: 2.33590924e-13}
+      position: {x: -19.5797119, y: 2.33146835e-14, z: 2.33590924e-12}
       rotation: {x: -.000167136139, y: -1.00458165e-05, z: .0599973202, w: .998198569}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraAnkle_R
-      position: {x: -1.11022302e-16, y: 0, z: 0}
+      position: {x: -1.11022302e-15, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKAnkle_R
-      position: {x: -1.11022302e-16, y: 0, z: 0}
+      position: {x: -1.11022302e-15, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1718,22 +1502,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKXHeel_R
-      position: {x: -.922898352, y: .593600571, z: .000198782305}
+      position: {x: -9.22898388, y: 5.93600559, z: .00198782305}
       rotation: {x: .000770037761, y: .0188456345, z: -.0408189408, w: .998988509}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKParentConstraintToWrist_L
-      position: {x: -6.06188583, y: 8.61357403, z: .0388357304}
+      position: {x: -60.6188583, y: 86.1357422, z: .388357311}
       rotation: {x: -.0396109261, y: 6.76115219e-10, z: .999215186, w: -4.66494665e-09}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKParentConstraintToWrist_R
-      position: {x: 6.06188583, y: 8.61357403, z: .0388357304}
+      position: {x: 60.6188583, y: 86.1357422, z: .388357311}
       rotation: {x: 1.06946736e-08, y: .999215186, z: 7.36116323e-09, w: -.0396109261}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:RootCenterBtwLegsBlended_M
-      position: {x: -0, y: 6.01530552, z: 0}
+      position: {x: -0, y: 60.1530533, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1753,7 +1537,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:HipSwingerOffsetRoot_M
-      position: {x: 2.96605349, y: .790664315, z: 6.0791151e-17}
+      position: {x: 29.6605339, y: 7.90664291, z: 6.07911523e-16}
       rotation: {x: 0, y: -0, z: -.707106829, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1778,22 +1562,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:HipSwingerGroupRoot_M
-      position: {x: -.790664315, y: 2.56869987e-17, z: 6.0791151e-17}
+      position: {x: -7.90664291, y: 2.56869994e-16, z: 6.07911523e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKXRoot_M
-      position: {x: .790664315, y: -2.56869987e-17, z: -6.0791151e-17}
+      position: {x: 7.90664291, y: -2.56869994e-16, z: -6.07911523e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:HipSwingerStabalizeRoot_M
-      position: {x: -.790664315, y: 2.56869987e-17, z: 6.0791151e-17}
+      position: {x: -7.90664291, y: 2.56869994e-16, z: 6.07911523e-16}
       rotation: {x: 0, y: 0, z: .707106829, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetBackA_M
-      position: {x: -0, y: -8.8817842e-16, z: 0}
+      position: {x: -0, y: -8.8817842e-15, z: 0}
       rotation: {x: .5, y: -.5, z: -.5, w: .5}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1813,12 +1597,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetBackB_M
-      position: {x: -.790664315, y: 1.16302309e-16, z: -9.826772e-17}
+      position: {x: -7.90664291, y: 1.16302304e-15, z: -9.82677227e-16}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKExtraBackB_M
-      position: {x: -0, y: -1.97215226e-31, z: 0}
+      position: {x: -0, y: -1.97215226e-30, z: 0}
       rotation: {x: 0, y: -1.84889275e-32, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1833,7 +1617,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:FKOffsetChest_M
-      position: {x: -.688455105, y: -4.22408581e-16, z: -2.83954931e-16}
+      position: {x: -6.88455105, y: -4.22408597e-15, z: -2.83954921e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1883,12 +1667,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKParentConstraintArm_L
-      position: {x: -6.06188583, y: 8.61357403, z: .0388357304}
+      position: {x: -60.6188583, y: 86.1357422, z: .388357311}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKExtraArm_L
-      position: {x: -0, y: 1.77635684e-15, z: 0}
+      position: {x: -0, y: 1.77635684e-14, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1898,22 +1682,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKmessureConstrainToArm_L
-      position: {x: -0, y: -1.77635684e-15, z: 1.53349555e-15}
+      position: {x: -0, y: -1.77635684e-14, z: 1.53349555e-14}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXArmHandle_L
-      position: {x: -0, y: -1.77635684e-15, z: 1.53349555e-15}
+      position: {x: -0, y: -1.77635684e-14, z: 1.53349555e-14}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKParentConstraintArm_R
-      position: {x: 6.06189108, y: 8.61357403, z: .0388357826}
+      position: {x: 60.6189117, y: 86.1357422, z: .388357818}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKExtraArm_R
-      position: {x: 8.8817842e-16, y: 0, z: 0}
+      position: {x: 8.8817842e-15, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1923,17 +1707,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKmessureConstrainToArm_R
-      position: {x: -5.2514315e-06, y: -1.77635684e-15, z: -5.1022802e-08}
+      position: {x: -5.2514315e-05, y: -1.77635684e-14, z: -5.10228006e-07}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXArmHandle_R
-      position: {x: -5.2514315e-06, y: -1.77635684e-15, z: -5.1022802e-08}
+      position: {x: -5.2514315e-05, y: -1.77635684e-14, z: -5.10228006e-07}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKParentConstraintLeg_L
-      position: {x: -1.16942632, y: .970369756, z: -.176402718}
+      position: {x: -11.6942635, y: 9.7036972, z: -1.76402712}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1943,22 +1727,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKLeg_L
-      position: {x: -0, y: 1.11022302e-16, z: 0}
+      position: {x: -0, y: 1.11022302e-15, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKFootRollLeg_L
-      position: {x: 2.21073182e-09, y: 0, z: 5.55111512e-17}
+      position: {x: 2.21073186e-08, y: 0, z: 5.55111512e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKRollLegHeel_L
-      position: {x: -6.68729516e-09, y: -.922898352, z: -.593600571}
+      position: {x: -6.68729498e-08, y: -9.22898388, z: -5.93600559}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKExtraLegHeel_L
-      position: {x: -0, y: 1.38777878e-17, z: -2.22044605e-16}
+      position: {x: -0, y: 1.38777878e-16, z: -2.22044605e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1968,12 +1752,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKRollLegToe_L
-      position: {x: -5.59878174e-07, y: -.0649248585, z: 2.00065064}
+      position: {x: -5.59878163e-06, y: -.6492486, z: 20.006506}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKExtraLegToe_L
-      position: {x: -0, y: 0, z: 4.4408921e-16}
+      position: {x: -0, y: 0, z: 4.4408921e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -1983,22 +1767,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKLiftToeLegToe_L
-      position: {x: 4.27498748e-07, y: .272093862, z: -.51678282}
+      position: {x: 4.27498753e-06, y: 2.72093868, z: -5.16782808}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXLegHandleToe_L
-      position: {x: -6.40600035e-07, y: -.272093892, z: .51678282}
+      position: {x: -6.40600047e-06, y: -2.72093892, z: 5.16782808}
       rotation: {x: .169671655, y: -.686448693, z: -.169672474, w: .686448097}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKRollLegBall_L
-      position: {x: 5.5987374e-07, y: .272093862, z: -.51678282}
+      position: {x: 5.59873752e-06, y: 2.72093868, z: -5.16782808}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKExtraLegBall_L
-      position: {x: 4.4408921e-16, y: 0, z: -2.22044605e-16}
+      position: {x: 4.4408921e-15, y: 0, z: -2.22044605e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2008,27 +1792,27 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKFootPivotBallReverseLeg_L
-      position: {x: 2.22044605e-16, y: 0, z: 0}
+      position: {x: 2.22044605e-15, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKmessureConstrainToLeg_L
-      position: {x: 6.0726979e-12, y: .715729356, z: -.890267134}
+      position: {x: 6.0726979e-11, y: 7.15729332, z: -8.90267181}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXLegHandle_L
-      position: {x: 6.0726979e-12, y: .715729356, z: -.890267134}
+      position: {x: 6.0726979e-11, y: 7.15729332, z: -8.90267181}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXLegHandleBall_L
-      position: {x: -1.32374979e-07, y: 2.12406703e-10, z: 2.41393905e-09}
+      position: {x: -1.32374976e-06, y: 2.12406714e-09, z: 2.41393909e-08}
       rotation: {x: .499916315, y: -.499916315, z: -.500083685, w: .500083685}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKParentConstraintLeg_R
-      position: {x: 1.16942632, y: .970369756, z: -.176402718}
+      position: {x: 11.6942635, y: 9.7036972, z: -1.76402712}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2038,7 +1822,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKLeg_R
-      position: {x: -0, y: 1.15463195e-14, z: 0}
+      position: {x: -0, y: 1.15463195e-13, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2048,12 +1832,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKRollLegHeel_R
-      position: {x: 2.15516494e-12, y: -.922898352, z: -.593600571}
+      position: {x: 2.15516494e-11, y: -9.22898388, z: -5.93600559}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKExtraLegHeel_R
-      position: {x: 4.4408921e-16, y: -1.38777878e-17, z: 2.22044605e-16}
+      position: {x: 4.4408921e-15, y: -1.38777878e-16, z: 2.22044605e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2063,12 +1847,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKRollLegToe_R
-      position: {x: 5.59878174e-07, y: -.0649248585, z: 2.00065064}
+      position: {x: 5.59878163e-06, y: -.6492486, z: 20.006506}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKExtraLegToe_R
-      position: {x: 4.4408921e-16, y: 0, z: 4.4408921e-16}
+      position: {x: 4.4408921e-15, y: 0, z: 4.4408921e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2078,22 +1862,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKLiftToeLegToe_R
-      position: {x: -1.38608925e-07, y: .272093862, z: -.51678282}
+      position: {x: -1.38608925e-06, y: 2.72093868, z: -5.16782808}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXLegHandleToe_R
-      position: {x: 8.04491265e-07, y: -.272093892, z: .51678282}
+      position: {x: 8.04491265e-06, y: -2.72093892, z: 5.16782808}
       rotation: {x: -.686447978, y: -.169672444, z: .686448812, w: .169671685}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKRollLegBall_R
-      position: {x: -5.5987374e-07, y: .272093862, z: -.51678282}
+      position: {x: -5.59873752e-06, y: 2.72093868, z: -5.16782808}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKExtraLegBall_R
-      position: {x: 4.4408921e-16, y: 0, z: 2.22044605e-16}
+      position: {x: 4.4408921e-15, y: 0, z: 2.22044605e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2108,22 +1892,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKmessureConstrainToLeg_R
-      position: {x: -6.61892763e-12, y: .715729356, z: -.890267134}
+      position: {x: -6.61892763e-11, y: 7.15729332, z: -8.90267181}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXLegHandle_R
-      position: {x: -6.61892763e-12, y: .715729356, z: -.890267134}
+      position: {x: -6.61892763e-11, y: 7.15729332, z: -8.90267181}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXLegHandleBall_R
-      position: {x: 4.21264787e-07, y: 2.59163579e-10, z: 2.45144038e-09}
+      position: {x: 4.21264804e-06, y: 2.59163579e-09, z: 2.4514403e-08}
       rotation: {x: .500083625, y: .500083625, z: -.499916434, w: -.499916434}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKParentConstraintSpine0_M
-      position: {x: -0, y: 6.01530552, z: 0}
+      position: {x: -0, y: 60.1530533, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2138,22 +1922,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKOrientToSpine_M
-      position: {x: -1.97215226e-31, y: 6.03961325e-14, z: 0}
+      position: {x: -1.97215226e-30, y: 6.03961325e-13, z: 0}
       rotation: {x: 0, y: -0, z: -.707106829, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKSpine0AlignTo_M
-      position: {x: 3.94430453e-31, y: 0, z: 0}
+      position: {x: 3.94430453e-30, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -.707106829, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKStiffStartOrientSpine_M
-      position: {x: -0, y: 6.03961325e-14, z: 0}
+      position: {x: -0, y: 6.03961325e-13, z: 0}
       rotation: {x: 0, y: -0, z: -.707106829, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXSpineLocator1_M
-      position: {x: -.378297299, y: 8.39988743e-17, z: 0}
+      position: {x: -3.78297305, y: 8.39988757e-16, z: 0}
       rotation: {x: 0, y: 0, z: .707106829, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2163,7 +1947,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKParentConstraintSpine2_M
-      position: {x: -1.0603421e-15, y: 7.15019751, z: 5.47950643e-16}
+      position: {x: -1.0603421e-14, y: 71.501976, z: 5.47950653e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2178,12 +1962,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXSpineLocator2_M
-      position: {x: -1.97215226e-31, y: -8.8817842e-16, z: 0}
+      position: {x: -1.97215226e-30, y: -8.8817842e-15, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKParentConstraintSpine4_M
-      position: {x: -1.23994898e-15, y: 8.28508949, z: -3.6143285e-16}
+      position: {x: -1.239949e-14, y: 82.8508911, z: -3.61432855e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2198,37 +1982,37 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKEndJointOrientToSpine_M
-      position: {x: 7.4941786e-30, y: -1.0125234e-13, z: 1.82424084e-30}
+      position: {x: 7.4941786e-29, y: -1.0125234e-12, z: 1.82424084e-29}
       rotation: {x: .5, y: -.5, z: -.5, w: .5}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKSpine4AlignTo_M
-      position: {x: -6.45570672e-24, y: 8.30674018e-09, z: 1.82424084e-30}
+      position: {x: -6.45570696e-23, y: 8.30674054e-08, z: 1.82424084e-29}
       rotation: {x: .5, y: -.5, z: -.5, w: .5}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKSpine4AlignUnTwistToOffset_M
-      position: {x: -6.45570672e-24, y: 8.30674018e-09, z: 1.82424084e-30}
+      position: {x: -6.45570696e-23, y: 8.30674054e-08, z: 1.82424084e-29}
       rotation: {x: 0, y: -0, z: -.707106829, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKSpine4AlignUnTwistTo_M
-      position: {x: -0, y: 7.88860905e-31, z: 4.93038066e-32}
+      position: {x: -0, y: 7.88860905e-30, z: 4.93038066e-31}
       rotation: {x: 0, y: -0, z: -4.93038066e-32, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKStiffEndOrientSpine_M
-      position: {x: 7.09974815e-30, y: -4.08562073e-14, z: 3.82169354e-17}
+      position: {x: 7.09974815e-29, y: -4.08562073e-13, z: 3.82169354e-16}
       rotation: {x: .5, y: .5, z: .5, w: .5}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXSpineLocator3_M
-      position: {x: -.378297299, y: -1.72172185e-17, z: -8.39988743e-17}
+      position: {x: -3.78297305, y: -1.72172178e-16, z: -8.39988757e-16}
       rotation: {x: .5, y: .5, z: .5, w: -.5}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXSpineHandle_M
-      position: {x: -6.45570672e-24, y: 8.30674018e-09, z: 1.82424084e-30}
+      position: {x: -6.45570696e-23, y: 8.30674054e-08, z: 1.82424084e-29}
       rotation: {x: .5, y: -.5, z: -.5, w: .5}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2238,17 +2022,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleAimLeg_L
-      position: {x: -1.16942632, y: 5.66275644, z: .102862321}
+      position: {x: -11.6942635, y: 56.6275635, z: 1.02862322}
       rotation: {x: .0210136678, y: -.0210136678, z: .7067945, w: .7067945}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleAimLeg_R
-      position: {x: 1.16942632, y: 5.66275644, z: .102862321}
+      position: {x: 11.6942635, y: 56.6275635, z: 1.02862322}
       rotation: {x: .0210136678, y: -.0210136678, z: .7067945, w: .7067945}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleParentConstraintArm_L
-      position: {x: -3.82305861, y: 8.61357403, z: 4.01454639}
+      position: {x: -38.230587, y: 86.1357422, z: 40.145462}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2263,7 +2047,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleParentConstraintArm_R
-      position: {x: 3.82306147, y: 8.61357307, z: 4.01455164}
+      position: {x: 38.2306137, y: 86.1357269, z: 40.1455154}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2273,12 +2057,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleArm_R
-      position: {x: -4.4408921e-16, y: 0, z: 0}
+      position: {x: -4.4408921e-15, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleParentConstraintLeg_L
-      position: {x: -1.16942644, y: 2.6420269, z: 4.632092}
+      position: {x: -11.6942644, y: 26.420269, z: 46.320919}
       rotation: {x: 8.67361738e-18, y: 2.82779477e-11, z: 1.68291206e-12, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2288,12 +2072,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleLeg_L
-      position: {x: -0, y: -4.4408921e-16, z: 0}
+      position: {x: -0, y: -4.4408921e-15, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleParentConstraintLeg_R
-      position: {x: 1.16942632, y: 2.6420269, z: 4.632092}
+      position: {x: 11.6942635, y: 26.420269, z: 46.320919}
       rotation: {x: 7.97972799e-17, y: -3.16933979e-15, z: -2.60859043e-16, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2303,7 +2087,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleLeg_R
-      position: {x: -0, y: 0, z: 8.8817842e-16}
+      position: {x: -0, y: 0, z: 8.8817842e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2333,42 +2117,42 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKmessureLoc1Arm_L
-      position: {x: -2.06480026, y: 8.61357403, z: 1.37429112e-07}
+      position: {x: -20.6480026, y: 86.1357422, z: 1.37429106e-06}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKmessureLoc2Arm_L
-      position: {x: -3.99708557, y: 2.92885744e-07, z: .0388355963}
+      position: {x: -39.9708557, y: 2.92885738e-06, z: .38835597}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKmessureLoc1Arm_R
-      position: {x: 2.06480026, y: 8.61357403, z: 4.58097276e-08}
+      position: {x: 20.6480026, y: 86.1357422, z: 4.58097276e-07}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKmessureLoc2Arm_R
-      position: {x: 3.99708557, y: 1.11960013e-07, z: .0388356857}
+      position: {x: 39.9708557, y: 1.11960014e-06, z: .388356864}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKmessureLoc1Leg_L
-      position: {x: -1.16942632, y: 5.66275644, z: .102862321}
+      position: {x: -11.6942635, y: 56.6275635, z: 1.02862322}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKmessureLoc2Leg_L
-      position: {x: -4.10782519e-14, y: -4.69238663, z: -.279265046}
+      position: {x: -4.10782519e-13, y: -46.9238663, z: -2.79265046}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKmessureLoc1Leg_R
-      position: {x: 1.16942632, y: 5.66275644, z: .102862321}
+      position: {x: 11.6942635, y: 56.6275635, z: 1.02862322}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKmessureLoc2Leg_R
-      position: {x: -5.01154673e-13, y: -4.69238663, z: -.279265046}
+      position: {x: -5.01154673e-12, y: -46.9238663, z: -2.79265046}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2378,97 +2162,97 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKParentConstraintHip_L
-      position: {x: -9.86076132e-32, y: 6.01530552, z: 0}
+      position: {x: -9.86076132e-31, y: 60.1530533, z: 0}
       rotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKOffsetHip_L
-      position: {x: .352549136, y: -1.16942632, z: .102862321}
+      position: {x: 3.52549124, y: -11.6942635, z: 1.02862322}
       rotation: {x: .707083404, y: .00575482799, z: -.00575482799, w: .707083404}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXHip_L
-      position: {x: 8.8817842e-16, y: 0, z: -2.22044605e-16}
+      position: {x: 8.8817842e-15, y: 0, z: -2.22044605e-15}
       rotation: {x: 1.41133452e-08, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXKnee_L
-      position: {x: 2.74887609, y: 1.96370697e-15, z: -4.61852778e-14}
+      position: {x: 27.4887619, y: 1.96370697e-14, z: -4.61852778e-13}
       rotation: {x: 0, y: 0, z: -.0518715158, w: .998653769}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXAnkle_L
-      position: {x: 1.9579711, y: -1.05471187e-15, z: -2.33812969e-13}
+      position: {x: 19.5797119, y: -1.05471187e-14, z: -2.33812969e-12}
       rotation: {x: -.000167071863, y: -1.00419866e-05, z: .0599975139, w: .998198509}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKFKAlignedLeg_L
-      position: {x: 1.80133721e-08, y: 3.02667701e-07, z: 1.33333611e-08}
+      position: {x: 1.80133725e-07, y: 3.02667695e-06, z: 1.33333614e-07}
       rotation: {x: -3.2353018e-08, y: -1.04343606e-15, z: 3.22515845e-08, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXMiddleToe1_L
-      position: {x: .715729356, y: .890267074, z: .000298128667}
+      position: {x: 7.15729332, y: 8.90267086, z: .00298128673}
       rotation: {x: .000143165787, y: -8.71945376e-05, z: .516776204, w: .856120527}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXMiddleToe2_L
-      position: {x: .584037304, y: 5.04150055e-11, z: 6.66133815e-16}
+      position: {x: 5.84037304, y: 5.04150055e-10, z: 6.66133815e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleAnnotationLeg_L
-      position: {x: -8.8817842e-16, y: 0, z: 0}
+      position: {x: -8.8817842e-15, y: 0, z: 0}
       rotation: {x: .529097915, y: -.469100624, z: -.529097915, w: -.469100624}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKParentConstraintHip_R
-      position: {x: -9.86076132e-32, y: 6.01530552, z: 0}
+      position: {x: -9.86076132e-31, y: 60.1530533, z: 0}
       rotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKOffsetHip_R
-      position: {x: .352549136, y: 1.16942632, z: .102862321}
+      position: {x: 3.52549124, y: 11.6942635, z: 1.02862322}
       rotation: {x: .00575482799, y: -.707083404, z: .707083404, w: .00575482799}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXHip_R
-      position: {x: -0, y: -1.73472348e-18, z: 4.4408921e-16}
+      position: {x: -0, y: -1.73472348e-17, z: 4.4408921e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXKnee_R
-      position: {x: -2.74887609, y: -1.47278023e-15, z: -5.35127498e-14}
+      position: {x: -27.4887619, y: -1.47278023e-14, z: -5.35127498e-13}
       rotation: {x: 0, y: 0, z: -.0518715158, w: .998653769}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXAnkle_R
-      position: {x: -1.9579711, y: 2.1649349e-15, z: 2.3336888e-13}
+      position: {x: -19.5797119, y: 2.1649349e-14, z: 2.3336888e-12}
       rotation: {x: -.000166900907, y: -1.0031712e-05, z: .0599975139, w: .998198509}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKFKAlignedLeg_R
-      position: {x: -1.80133721e-08, y: -3.02668042e-07, z: -1.23087345e-08}
+      position: {x: -1.80133725e-07, y: -3.02668036e-06, z: -1.23087347e-07}
       rotation: {x: -2.16280487e-08, y: -6.97534967e-16, z: 3.22514069e-08, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXMiddleToe1_R
-      position: {x: -.715729356, y: -.890267074, z: -.000298128667}
+      position: {x: -7.15729332, y: -8.90267086, z: -.00298128673}
       rotation: {x: .0001431657, y: -8.71998564e-05, z: .516776204, w: .856120527}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXMiddleToe2_R
-      position: {x: -.584037304, y: 2.17972307e-11, z: -6.66133815e-16}
+      position: {x: -5.84037304, y: 2.17972307e-10, z: -6.66133815e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleAnnotationLeg_R
-      position: {x: -0, y: 5.55111512e-17, z: 2.22044605e-16}
+      position: {x: -0, y: 5.55111512e-16, z: 2.22044605e-15}
       rotation: {x: .469100624, y: .529097915, z: -.469100624, w: .529097915}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKParentConstraintRoot_M
-      position: {x: 3.9236357e-44, y: 6.01530552, z: 0}
+      position: {x: 3.9236357e-43, y: 60.1530533, z: 0}
       rotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2478,112 +2262,112 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXRoot_M
-      position: {x: 6.03961325e-14, y: -4.65427934e-29, z: 0}
+      position: {x: 6.03961325e-13, y: -4.65427934e-28, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXBackA_M
-      position: {x: -.790664315, y: 2.56869987e-17, z: 6.0791151e-17}
+      position: {x: -7.90664291, y: 2.56869994e-16, z: 6.07911523e-16}
       rotation: {x: .707106829, y: 0, z: -0, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKfake1Spine_M
-      position: {x: -.790664315, y: 5.42314995e-17, z: -1.60338519e-16}
+      position: {x: -7.90664291, y: 5.42315015e-16, z: -1.60338519e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKFake1UpLocSpine_M
-      position: {x: -0, y: 1, z: 0}
+      position: {x: -0, y: 10, z: 0}
       rotation: {x: -5.55111512e-17, y: -5.55111512e-17, z: 5.55111512e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKfake2Spine_M
-      position: {x: -.688455105, y: -4.76455503e-16, z: -3.38001827e-16}
+      position: {x: -6.88455105, y: -4.76455525e-15, z: -3.38001827e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXBackB_M
-      position: {x: -.790664315, y: 5.42314995e-17, z: -1.60338519e-16}
+      position: {x: -7.90664291, y: 5.42315015e-16, z: -1.60338519e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXChest_M
-      position: {x: -.688455105, y: -4.76455503e-16, z: -3.38001827e-16}
+      position: {x: -6.88455105, y: -4.76455525e-15, z: -3.38001827e-15}
       rotation: {x: -1.38777878e-16, y: 0, z: -2.77555756e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKFKAlignedSpine_M
-      position: {x: -5.86197757e-14, y: -4.80975318e-17, z: -4.80975318e-17}
+      position: {x: -5.86197757e-13, y: -4.80975324e-16, z: -4.80975324e-16}
       rotation: {x: -5.55111512e-17, y: -5.55111512e-17, z: 5.55111512e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKParentConstraintShoulder_L
-      position: {x: -1.37273788, y: 8.61357403, z: -5.57129886e-16}
+      position: {x: -13.7273788, y: 86.1357422, z: -5.57129907e-15}
       rotation: {x: 9.9289565e-08, y: -1.80565948e-07, z: 1, w: -2.44381027e-07}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKOffsetShoulder_L
-      position: {x: .692062497, y: 0, z: 5.77629513e-16}
+      position: {x: 6.92062473, y: 0, z: 5.77629502e-15}
       rotation: {x: .999982655, y: 1.73000503e-10, z: .00589336222, w: 1.01964032e-12}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXShoulder_L
-      position: {x: -0, y: 0, z: 3.46944695e-18}
+      position: {x: -0, y: 0, z: 3.46944695e-17}
       rotation: {x: 2.04185739e-07, y: -.000517810753, z: 2.83313796e-07, w: .999999881}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXElbow_L
-      position: {x: 1.79718268, y: -9.00042707e-10, z: -8.81239526e-16}
+      position: {x: 17.9718266, y: -9.00042707e-09, z: -8.81239526e-15}
       rotation: {x: 4.82683338e-13, y: -.000940860831, z: -1.23545904e-11, w: .999999583}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXWrist_L
-      position: {x: 2.20009851, y: -9.93093607e-10, z: 5.02983072e-14}
+      position: {x: 22.0009842, y: -9.93093607e-09, z: 5.02983072e-13}
       rotation: {x: .999029696, y: -3.83930363e-08, z: .0440418608, w: 7.19045872e-08}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKFKAlignedArm_L
-      position: {x: -7.16203843e-08, y: 2.25904478e-06, z: 8.16185548e-07}
+      position: {x: -7.16203829e-07, y: 2.25904478e-05, z: 8.16185548e-06}
       rotation: {x: -1.55562603e-07, y: -8.73685764e-08, z: 2.28146959e-07, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleAnnotationArm_L
-      position: {x: -0, y: 1.77635684e-15, z: 0}
+      position: {x: -0, y: 1.77635684e-14, z: 0}
       rotation: {x: -4.63566874e-09, y: .999991953, z: -1.85979461e-11, w: .00401193043}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKParentConstraintShoulder_R
-      position: {x: 1.37273788, y: 8.61357403, z: -4.70817758e-16}
+      position: {x: 13.7273788, y: 86.1357422, z: -4.70817758e-15}
       rotation: {x: 8.14603425e-08, y: 1, z: 1.79676451e-08, w: 3.30965264e-08}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKOffsetShoulder_R
-      position: {x: -.692062497, y: 1.77635684e-15, z: -7.15460567e-16}
+      position: {x: -6.92062473, y: 1.77635684e-14, z: -7.15460609e-15}
       rotation: {x: .999982655, y: -1.20174968e-14, z: .00589336222, w: 2.03928346e-12}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXShoulder_R
-      position: {x: -0, y: 1.77635684e-15, z: 0}
+      position: {x: -0, y: 1.77635684e-14, z: 0}
       rotation: {x: -5.08106019e-08, y: -.000517703767, z: 9.56557571e-08, w: .999999881}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXElbow_R
-      position: {x: -1.79718268, y: 8.99955666e-10, z: 8.81239526e-16}
+      position: {x: -17.9718266, y: 8.99955666e-09, z: 8.81239526e-15}
       rotation: {x: 6.00392023e-13, y: -.000940914149, z: -1.37530751e-10, w: .999999583}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKXWrist_R
-      position: {x: -2.20009851, y: -1.08835607e-10, z: -4.97206443e-14}
+      position: {x: -22.0009842, y: -1.08835607e-09, z: -4.97206443e-13}
       rotation: {x: .999048233, y: -1.55878563e-08, z: .0436193831, w: -2.34923245e-08}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKFKAlignedArm_R
-      position: {x: 5.24849293e-06, y: -7.61352283e-07, z: 2.64362541e-07}
+      position: {x: 5.24849311e-05, y: -7.61352294e-06, z: 2.64362552e-06}
       rotation: {x: 1.90618472e-08, y: .000422852318, z: 8.32566869e-08, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleAnnotationArm_R
-      position: {x: 8.8817842e-16, y: 0, z: 3.46944695e-18}
+      position: {x: 8.8817842e-15, y: 0, z: 3.46944695e-17}
       rotation: {x: -.00443480024, y: -7.69695632e-08, z: .999990165, w: 5.65866465e-10}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2593,32 +2377,32 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKParentConstraintArm_LStatic
-      position: {x: -6.06188583, y: 8.61357403, z: .0388357304}
+      position: {x: -60.6188583, y: 86.1357422, z: .388357311}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:IKParentConstraintArm_RStatic
-      position: {x: 6.06189108, y: 8.61357403, z: .0388357826}
+      position: {x: 60.6189117, y: 86.1357422, z: .388357818}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleParentConstraintArm_LStatic
-      position: {x: -3.82305861, y: 8.61357403, z: 4.01454639}
+      position: {x: -38.230587, y: 86.1357422, z: 40.145462}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleParentConstraintArm_RStatic
-      position: {x: 3.82306147, y: 8.61357307, z: 4.01455164}
+      position: {x: 38.2306137, y: 86.1357269, z: 40.1455154}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleParentConstraintLeg_LStatic
-      position: {x: -1.16942644, y: 2.6420269, z: 4.632092}
+      position: {x: -11.6942644, y: 26.420269, z: 46.320919}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:PoleParentConstraintLeg_RStatic
-      position: {x: 1.16942632, y: 2.6420269, z: 4.632092}
+      position: {x: 11.6942635, y: 26.420269, z: 46.320919}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2628,17 +2412,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:RootCenter_M
-      position: {x: -0, y: 6.01530552, z: 0}
+      position: {x: -0, y: 60.1530533, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:RootCenterBtwLegs_M
-      position: {x: 2.23720509e-09, y: 6.01530552, z: -.176402718}
+      position: {x: 2.23720509e-08, y: 60.1530533, z: -1.76402712}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:RootCenterBtwLegsOffset_M
-      position: {x: -2.23720509e-09, y: 0, z: .176402718}
+      position: {x: -2.23720509e-08, y: 0, z: 1.76402712}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -2648,22 +2432,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:TwistFollowRoot_M
-      position: {x: -0, y: 6.01530552, z: 0}
+      position: {x: -0, y: 60.1530533, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:UnTwistIKRoot_M
-      position: {x: -1.23994898e-15, y: 2.26978374, z: -3.6143285e-16}
+      position: {x: -1.239949e-14, y: 22.6978378, z: -3.61432855e-15}
       rotation: {x: 0, y: -0, z: -.707106829, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:UnTwistRoot_M
-      position: {x: -0, y: 6.03961325e-14, z: 0}
+      position: {x: -0, y: 6.03961325e-13, z: 0}
       rotation: {x: -1.26918354e-09, y: 1.26918354e-09, z: -.707106829, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: robo_rigg_2014:UnTwistEndRoot_M
-      position: {x: -2.26978374, y: 5.7212491e-16, z: -4.09530371e-16}
+      position: {x: -22.6978378, y: 5.72124931e-15, z: -4.0953035e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
