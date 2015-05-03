@@ -34,7 +34,7 @@ public class ColliderTest : MonoBehaviour {
             Debug.Log("Tigger com o " + col.gameObject.name);
             float dist = Vector3.Distance(transform.position, col.transform.position);
 
-            col.GetComponent<EnemyBehaviour>().Hit();  
+            col.GetComponent<EnemyBehaviour>().TakeDamage();  
         }
 
             

@@ -100,13 +100,14 @@ public class EnemyBehaviour : MonoBehaviour {
         
     }
 
-    public void Hit()
+    public void TakeDamage()
     {
         if (life > 0)
         {
 
             anim.SetTrigger("hit");
             life--;
+            PopUpHitPoint.ShowMessage("+1", transform.position);
         }
         else
         {
@@ -117,7 +118,7 @@ public class EnemyBehaviour : MonoBehaviour {
 
     IEnumerator death()
     {
-        anim.SetTrigger("die");
+        anim.SetBool("die",true);
         yield return new WaitForSeconds(2);
         Destroy(this.gameObject);
     }
