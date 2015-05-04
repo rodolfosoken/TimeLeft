@@ -2,8 +2,7 @@
 
 public class PlayerBehaviour : MonoBehaviour
 {
-    public float speed = 6f;            // The speed that the player will move at.
-
+  
     Vector3 movement;                   // The vector to store the direction of the player's movement.
     Animator anim;                      // Reference to the animator component.
    // Rigidbody playerRigidbody;          // Reference to the player's rigidbody.
@@ -31,6 +30,8 @@ public class PlayerBehaviour : MonoBehaviour
 
         // Animate the player.
         Animating(h, v);
+
+        Camera.main.transform.position = new Vector3(transform.position.x, transform.position.y +30, -44);
     }
 
     void Update()

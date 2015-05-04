@@ -194,16 +194,16 @@ ModelImporter:
     7400000: Circle|Walk
     7400002: Sphere|Walk
     7400004: Armature|ArmatureAction
-    7400006: Armature|Walk
+    7400006: ArmatureWalk
     7400008: Corpo|Walk
-    7400010: Armature|Impaciente
-    7400012: Armature|IdleCycle
+    7400010: ArmatureImpaciente
+    7400012: ArmatureIdleCycle
     7400014: Armature|ModoAtaque
-    7400016: Armature|Ataque
+    7400016: ArmatureAtaque
     7400018: Armature|Ataque2
     7400020: Armature|Transicao_Ataque_IDLe
-    7400022: Armature|Defesa
-    7400024: Armature|Hit
+    7400022: ArmatureDefesa
+    7400024: ArmatureHit
     9500000: //RootNode
     13700000: Corpo_MeshPart0
     13700002: Corpo_MeshPart1
@@ -225,7 +225,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Armature|Impaciente
+      name: ArmatureImpaciente
       takeName: Armature|Idle
       firstFrame: 0
       lastFrame: 99
@@ -413,7 +413,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Armature|Walk
+      name: ArmatureWalk
       takeName: Armature|Walk
       firstFrame: 2
       lastFrame: 27
@@ -601,7 +601,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Armature|IdleCycle
+      name: ArmatureIdleCycle
       takeName: Armature|Idle
       firstFrame: 0
       lastFrame: 37
@@ -789,7 +789,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Armature|Ataque
+      name: ArmatureAtaque
       takeName: Armature|Ataque
       firstFrame: 0
       lastFrame: 21
@@ -989,7 +989,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Armature|Defesa
+      name: ArmatureDefesa
       takeName: Armature|Defesa
       firstFrame: 0
       lastFrame: 7
@@ -1189,7 +1189,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Armature|Hit
+      name: ArmatureHit
       takeName: Armature|Hit
       firstFrame: 0
       lastFrame: 9
