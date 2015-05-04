@@ -31,7 +31,7 @@ public class PlayerBehaviour : MonoBehaviour
         // Animate the player.
         Animating(h, v);
 
-        Camera.main.transform.position = new Vector3(transform.position.x, transform.position.y +30, -44);
+        Camera.main.transform.position = new Vector3(transform.position.x, transform.position.y + 24 , 193);
     }
 
     void Update()
