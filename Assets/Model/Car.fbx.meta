@@ -1,39 +1,39 @@
 fileFormatVersion: 2
-guid: 1b260ede6f26e0c49a51ce86c68895d8
+guid: 135432ae837ce3549ba14fcff238aa8f
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: LR_Wheel
-    100002: RF_Wheel
-    100004: RR_Wheel
-    100006: Chassis
-    100008: LF_Wheel
-    100010: //RootNode
-    400000: LR_Wheel
-    400002: RF_Wheel
-    400004: RR_Wheel
-    400006: Chassis
-    400008: LF_Wheel
-    400010: //RootNode
-    2300000: LR_Wheel
-    2300002: RF_Wheel
-    2300004: RR_Wheel
-    2300006: Chassis
-    2300008: LF_Wheel
-    3300000: LR_Wheel
-    3300002: RF_Wheel
-    3300004: RR_Wheel
-    3300006: Chassis
-    3300008: LF_Wheel
+    100000: //RootNode
+    100002: Chassis
+    100004: LF_Wheel
+    100006: LR_Wheel
+    100008: RF_Wheel
+    100010: RR_Wheel
+    400000: //RootNode
+    400002: Chassis
+    400004: LF_Wheel
+    400006: LR_Wheel
+    400008: RF_Wheel
+    400010: RR_Wheel
+    2300000: Chassis
+    2300002: LF_Wheel
+    2300004: LR_Wheel
+    2300006: RF_Wheel
+    2300008: RR_Wheel
+    3300000: Chassis
+    3300002: LF_Wheel
+    3300004: LR_Wheel
+    3300006: RF_Wheel
+    3300008: RR_Wheel
     4300000: Chassis
     4300002: LF_Wheel
     4300004: LR_Wheel
     4300006: RR_Wheel
     4300008: RF_Wheel
-    11100000: //RootNode
+    9500000: //RootNode
   materials:
     importMaterials: 1
-    materialName: 3
+    materialName: 0
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
@@ -50,7 +50,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: .00999999978
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -82,6 +82,6 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
   additionalBone: 0
   userData: 
