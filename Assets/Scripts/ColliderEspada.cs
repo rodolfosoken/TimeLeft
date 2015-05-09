@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ColliderTest : MonoBehaviour {
+public class ColliderEspada : MonoBehaviour {
 
     Collider col;
-    Transform player;
+    public Transform player;
     Transform enemy;
 
 	// Use this for initialization
@@ -14,9 +14,8 @@ public class ColliderTest : MonoBehaviour {
 
     void Awake()
     {
-        player = GameObject.Find("Player").transform;
-        Physics.IgnoreCollision(player.GetComponent<Collider>(), GetComponent<Collider>());
-        Physics.IgnoreCollision(GameObject.Find("DynamicObject").transform.GetComponent<Collider>(), GetComponent<Collider>());
+        //Physics.IgnoreCollision(player.GetComponent<Collider>(), GetComponent<Collider>());
+       // Physics.IgnoreCollision(GameObject.Find("DynamicObject").transform.GetComponent<Collider>(), GetComponent<Collider>());
         enemy = GameObject.Find("roBot").transform;
         
         //Physics.IgnoreCollision(GameObject.Find("Espada").transform.GetComponent<Collider>(), GetComponent<Collider>());
@@ -34,7 +33,7 @@ public class ColliderTest : MonoBehaviour {
     void OnTriggerEnter(Collider col)
     {
 
-        if (col.gameObject.name == "roBot")
+        if (col.gameObject.tag == "Enemy")
         {
             Debug.Log("Tigger com o " + col.gameObject.name);
             float dist = Vector3.Distance(transform.position, col.transform.position);
