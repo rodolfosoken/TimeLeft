@@ -26,16 +26,16 @@ public class Timer : MonoBehaviour {
         if (time <= 0)
         {
             time = 0;
-            GetComponent<PlayerBehaviour>().die();
+
         }
 	
 	}
 
-    public void plustime(int n)
+    public void plustime(float n)
     {
         time+=n;
     }
-    public void minustime(int n)
+    public void minustime(float n)
     {
         time -= n;
     }

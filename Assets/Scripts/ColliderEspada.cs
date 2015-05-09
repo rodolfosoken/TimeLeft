@@ -37,8 +37,8 @@ public class ColliderEspada : MonoBehaviour {
         {
             Debug.Log("Tigger com o " + col.gameObject.name);
             float dist = Vector3.Distance(transform.position, col.transform.position);
-
-            col.GetComponent<EnemyBehaviour>().TakeDamage();  
+            float damage = GetComponentInParent<PlayerBehaviour>().GetDamage();
+            col.GetComponent<EnemyBehaviour>().TakeDamage(damage);  
         }
 
             

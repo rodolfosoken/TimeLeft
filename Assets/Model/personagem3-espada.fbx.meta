@@ -205,6 +205,7 @@ ModelImporter:
     7400022: Armature|Defesa
     7400024: Armature|Hit
     7400026: Armature_die
+    7400028: AtaqueRotativo
     9500000: //RootNode
     13700000: Corpo_MeshPart0
     13700002: Corpo_MeshPart1
@@ -1394,6 +1395,206 @@ ModelImporter:
       takeName: Armature|die
       firstFrame: 0
       lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bainha
+        weight: 1
+      - path: Armature/Bainha/arming_sword_2_scabbard_Cube.014
+        weight: 1
+      - path: Armature/Bainha/Bainha_end
+        weight: 1
+      - path: Armature/Bone.028
+        weight: 1
+      - path: Armature/Bone.028/Bra__o Ik L
+        weight: 1
+      - path: Armature/Bone.028/Bra__o Ik L/ComandoMao L
+        weight: 1
+      - path: Armature/Bone.028/Bra__o Ik L/ComandoMao L/ComandoMao L_end
+        weight: 1
+      - path: Armature/Bone.028/Bra__o Ik R
+        weight: 1
+      - path: Armature/Bone.028/Bra__o Ik R/ComandoMao R
+        weight: 1
+      - path: Armature/Bone.028/Bra__o Ik R/ComandoMao R/ComandoMao R_end
+        weight: 1
+      - path: Armature/Bone.028/Cotovelo L
+        weight: 1
+      - path: Armature/Bone.028/Cotovelo L/Cotovelo L_end
+        weight: 1
+      - path: Armature/Bone.028/Cotovelo R
+        weight: 1
+      - path: Armature/Bone.028/Cotovelo R/Cotovelo R_end
+        weight: 1
+      - path: Armature/Bone.028/Estomago
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone/Bone.001/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone.003
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone.006
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone.006/Bone.007/Bone.008
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone.006/Bone.007/Bone.008/Bone.008_end
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone.009
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone.009/Bone.010
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone.009/Bone.010/Bone.011
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone.009/Bone.010/Bone.011/Bone.011_end
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone.012
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone.012/Bone.013
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o L/Antebra__o L/Bone.012/Bone.013/Bone.013_end
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.014
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.014/Bone.015
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.014/Bone.015/Bone.016
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.014/Bone.015/Bone.016/Bone.016_end
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.017
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.017/Bone.018
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.017/Bone.018/Bone.019
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.017/Bone.018/Bone.019/Bone.019_end
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.020
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.020/Bone.021
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.020/Bone.021/Bone.022
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.020/Bone.021/Bone.022/Bone.022_end
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.023
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.023/Bone.024
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.023/Bone.024/Bone.025
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.023/Bone.024/Bone.025/Bone.025_end
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.026
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.026/Bone.027
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Bra__o R/Antebra__o R/Bone.026/Bone.027/Bone.027_end
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Coxa L
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Coxa L/Perna L
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Coxa L/Perna L/Pe L
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Coxa L/Perna L/Pe L/Pe L_end
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Coxa R
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Coxa R/Perna R
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Coxa R/Perna R/Pe R
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Coxa R/Perna R/Pe R/Pe R_end
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Peito
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Peito/Cabe__a
+        weight: 1
+      - path: Armature/Bone.028/Estomago/Peito/Cabe__a/Cabe__a_end
+        weight: 1
+      - path: Armature/Bone.028/Joelho L
+        weight: 1
+      - path: Armature/Bone.028/Joelho L/Joelho L_end
+        weight: 1
+      - path: Armature/Bone.028/Joelho R
+        weight: 1
+      - path: Armature/Bone.028/Joelho R/Joelho R_end
+        weight: 1
+      - path: Armature/Bone.028/Perna Ik L
+        weight: 1
+      - path: Armature/Bone.028/Perna Ik L/Perna Ik L_end
+        weight: 1
+      - path: Armature/Bone.028/Perna Ik R
+        weight: 1
+      - path: Armature/Bone.028/Perna Ik R/Perna Ik R_end
+        weight: 1
+      - path: Armature/Espada
+        weight: 1
+      - path: Armature/Espada/arming_sword_2_Cube.003
+        weight: 1
+      - path: Armature/Espada/Espada_end
+        weight: 1
+      - path: Circle
+        weight: 1
+      - path: Corpo
+        weight: 1
+      - path: Corpo/Corpo_MeshPart0
+        weight: 1
+      - path: Corpo/Corpo_MeshPart1
+        weight: 1
+      - path: Corpo/Corpo_MeshPart2
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AtaqueRotativo
+      takeName: Armature|AtaqueRotativo
+      firstFrame: 0
+      lastFrame: 10
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

@@ -9,10 +9,14 @@ public class PlayerBehaviour : MonoBehaviour
     public bool IsDefending;
     public bool IsUnderAttack;
     public static PlayerBehaviour _instance;
-    public int life = 30;
+    public float life;
     bool IsDead;
     AudioSource [] audio;
     AudioSource sound1, sound2, sound3, sound4;
+    private float damage;
+
+
+
     void Awake()
     {
         IsDefending = false;
@@ -25,9 +29,8 @@ public class PlayerBehaviour : MonoBehaviour
         sound2 = audio[1];
         sound3 = audio[2];
         sound4 = audio[3];
-
-        //playerRigidbody = GetComponent<Rigidbody>();
-    }
+      damage = 1;
+        }
     void Start()
     {
         IsDead = false;
@@ -55,20 +58,32 @@ public class PlayerBehaviour : MonoBehaviour
             Defesa();
         }
     }
+
+    public float GetDamage()
+    {
+        return damage;
+    } 
     void Ataque()
     {
         //entra em modo de ataque ao pressionar o botão direito do mouse
         if (Input.GetMouseButton(0))
         {
                 //aciona a animação ataca
+                damage = 6;
                 anim.SetBool("IsAttacking",true);
-               sound3.Play();
+                sound3.Play();
         }
         else
         {
             anim.SetBool("IsAttacking", false);
         }
 
+        if (anim.GetBool("IsDefending") && Input.GetMouseButton(0))
+        {
+            //ataque de rotação
+            damage = 1;
+            anim.SetTrigger("Rotacao");
+        }
     }
 
 
@@ -76,38 +91,55 @@ public class PlayerBehaviour : MonoBehaviour
     {
         if (Input.GetMouseButton(1))
         {
-            //aciona a animação de ataque
-            anim.SetBool("IsDefending", true);
             IsDefending = true;
+            //aciona a animação de ataque
+            anim.SetBool("IsDefending", IsDefending);
+            
         }
         else
         {
-            anim.SetBool("IsDefending", false);
             IsDefending = false;
+            anim.SetBool("IsDefending", IsDefending);
         }
 
     }
 
-    public void TakeDamage()
+    public void TakeDamage(float damage)
     {
         if (!IsDefending && !IsDead)
         {
            // Debug.Log("hit em player");
             anim.SetTrigger("Hit");
           sound1.Play();
-            PopUpDamage.ShowMessage("-2", transform.position);
-            
-            Timer._timer.minustime(2);
-            life--;
+          PopUpDamage.ShowMessage("-" + damage, transform.position);
+
+          Timer._timer.minustime(damage);
+          life -= damage;
+        }
+    }
+
+    public void TakeDamageBehind(float damage)
+    {
+        if (!IsDead)
+        {
+            // Debug.Log("hit em player");
+            anim.SetTrigger("Hit");
+            sound1.Play();
+            PopUpDamage.ShowMessage("-" + damage, transform.position);
+
+            Timer._timer.minustime(damage);
+            life -= damage;
         }
     }
 
     public void die()
     {
-        sound4.Play();
-        anim.SetBool("Die", true);
-        IsDead = true;
-        
+        if (life == 0)
+        {
+            sound4.Play();
+            anim.SetBool("Die", true);
+            IsDead = true;
+        }  
     }
 
     void Animating(float h, float v)

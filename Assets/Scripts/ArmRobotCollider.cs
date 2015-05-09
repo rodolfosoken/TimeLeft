@@ -21,7 +21,11 @@ public class ArmRobotCollider : MonoBehaviour {
             Debug.Log("Tigger com o " + col.gameObject.name);
             float dist = Vector3.Distance(transform.position, col.transform.position);
 
-            col.gameObject.GetComponent<PlayerBehaviour>().TakeDamage();
+            col.gameObject.GetComponent<PlayerBehaviour>().TakeDamage(3);
+        }
+        else if(col.gameObject.name == "Bainha")
+        {
+            col.gameObject.GetComponentInParent<PlayerBehaviour>().TakeDamageBehind(2);
         }
 
 

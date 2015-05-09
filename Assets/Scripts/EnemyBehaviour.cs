@@ -8,7 +8,7 @@ public class EnemyBehaviour : MonoBehaviour {
     Transform player;               // Reference to the player's position.
     private Vector3 lastPosition;
 
-    public int life = 3;
+    public float life = 6;
     public float speed = 10.0f;
     public float range = 50.0f;
     public float limDist = 4f;
@@ -111,15 +111,19 @@ public class EnemyBehaviour : MonoBehaviour {
     }
 
 
-    public void TakeDamage()
+    public void TakeDamage(float damage)
     {
         if (life > 0)
         {
 
             anim.SetTrigger("hit");
-            life--;
-            Timer._timer.plustime(3);
-            PopUpHitPoint.ShowMessage("+3", transform.position);
+            life-=damage;
+            Timer._timer.plustime(damage);
+            PopUpHitPoint.ShowMessage("+"+damage, transform.position);
+            if (life <= 0)
+            {
+                StartCoroutine(death());
+            }
         }
         else
         {
