@@ -29,6 +29,7 @@ public class PopUpHitPoint : MonoBehaviour {
     public static void ShowMessage(string texto, Vector3 position)
     {
         var newInstance = new GameObject("Damage Popup");
+        position.y = position.y + 10;
         var HitPopUp = newInstance.AddComponent<PopUpHitPoint>();
         HitPopUp.position = position;
         HitPopUp.text = ("<color=green><size=30>" + texto + "</size></color>");
@@ -37,7 +38,7 @@ public class PopUpHitPoint : MonoBehaviour {
     void OnGUI()
     {
         var screenPX = cameraHold.WorldToScreenPoint(position);
-        GUI.Label(new Rect(screenPX.x, screenPointPosition.y, 300, 300), text);
+        GUI.Label(new Rect(screenPX.x, screenPointPosition.y, 150, 150), text);
         DestroyObject(gameObject, 1);
     }
 }

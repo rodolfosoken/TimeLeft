@@ -27,6 +27,7 @@ public class PopUpDamage : MonoBehaviour {
     public static void ShowMessage(string texto, Vector3 position)
     {
         var newInstance = new GameObject("Damage Popup");
+        position.y = position.y + 10;
         var damagePopUp = newInstance.AddComponent<PopUpDamage>();
         damagePopUp.position = position;
         damagePopUp.text = ("<color=red><size=30>" + texto + "</size></color>");

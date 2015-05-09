@@ -16,6 +16,7 @@ public class ColliderTest : MonoBehaviour {
     {
         player = GameObject.Find("Player").transform;
         Physics.IgnoreCollision(player.GetComponent<Collider>(), GetComponent<Collider>());
+        Physics.IgnoreCollision(GameObject.Find("DynamicObject").transform.GetComponent<Collider>(), GetComponent<Collider>());
         enemy = GameObject.Find("roBot").transform;
         
         //Physics.IgnoreCollision(GameObject.Find("Espada").transform.GetComponent<Collider>(), GetComponent<Collider>());
@@ -23,7 +24,11 @@ public class ColliderTest : MonoBehaviour {
 
     void OnTriggerStay(Collider other)
     {
+     
         //print("Still colliding with trigger object " + other.name);
+       
+        Physics.IgnoreCollision(other.GetComponent<Collider>(), GetComponent<Collider>());
+  
     }
 
     void OnTriggerEnter(Collider col)

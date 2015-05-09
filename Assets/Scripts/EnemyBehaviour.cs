@@ -11,7 +11,9 @@ public class EnemyBehaviour : MonoBehaviour {
     public int life = 3;
     public float speed = 10.0f;
     public float range = 50.0f;
+    public float limDist = 4f;
     bool IsWalking;
+    bool IsDead;
 
     public float rotateSpeed = 3.0f;
  
@@ -25,6 +27,8 @@ public class EnemyBehaviour : MonoBehaviour {
         lastPosition = transform.position;
 
          anim = GetComponent<Animator>();
+
+         IsDead = false;
          
       
     }
@@ -55,7 +59,7 @@ public class EnemyBehaviour : MonoBehaviour {
     }
 
     void Move(){
-            if (player)
+            if (player && !IsDead)
             {
                 Vector3 delta = player.position - transform.position;
                 delta.Normalize();
@@ -81,7 +85,7 @@ public class EnemyBehaviour : MonoBehaviour {
     void Animating(float distance)
     {
         // Create a boolean that is true if either of the input axes is non-zero.
-        IsWalking = distance > 12;
+        IsWalking = distance > limDist;
         //print("distancia: " + distance + IsWalking);
         if (IsWalking)
         {
@@ -114,7 +118,8 @@ public class EnemyBehaviour : MonoBehaviour {
 
             anim.SetTrigger("hit");
             life--;
-            PopUpHitPoint.ShowMessage("+1", transform.position);
+            Timer._timer.plustime(3);
+            PopUpHitPoint.ShowMessage("+3", transform.position);
         }
         else
         {
@@ -125,6 +130,7 @@ public class EnemyBehaviour : MonoBehaviour {
 
     IEnumerator death()
     {
+        IsDead = true;
         anim.SetBool("die",true);
         yield return new WaitForSeconds(2);
         Destroy(this.gameObject);

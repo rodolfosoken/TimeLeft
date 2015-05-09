@@ -16,7 +16,7 @@ public class ArmRobotCollider : MonoBehaviour {
     void OnTriggerEnter(Collider col)
     {
 
-        if (col.gameObject.name == "Player")
+        if (col.gameObject.tag == "Player")
         {
             Debug.Log("Tigger com o " + col.gameObject.name);
             float dist = Vector3.Distance(transform.position, col.transform.position);
