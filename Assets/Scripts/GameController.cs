@@ -37,6 +37,7 @@ public class GameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        currentLevelName = Application.loadedLevelName;
 
         if (player.GetComponent<PlayerBehaviour>().IsDead)
         {

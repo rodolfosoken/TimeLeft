@@ -15,7 +15,7 @@ public class Creditos : MonoBehaviour {
 	void Update () {
 		contagem += Time.deltaTime;
 		if (contagem >= duracao) {
-			Application.LoadLevel("Main_Menu");
+			Application.LoadLevel("MainMenu");
 		}
 	}
 	void OnGUI() {
@@ -27,9 +27,16 @@ public class Creditos : MonoBehaviour {
         GUI.Box(new Rect(Screen.width / 2 + 30, Screen.height / 2 + 50, 250, 50), "<size=18>Pedro Viviani</size>");
         GUI.Box(new Rect(Screen.width / 2 + 30, Screen.height / 2 + 100, 250, 50), "<size=18>Rodolfo Soken</size>");
         GUI.Box(new Rect(Screen.width / 2 + 30, Screen.height / 2 + 150, 250, 50), "<size=18>Tito Spadini</size>");
-        if (GUI.Button(new Rect(Screen.width / 2 + 30, Screen.height / 2 + 200, 250, 50), "<size=18>Restart</size>"))
+        if (GUI.Button(new Rect(Screen.width / 2 + 30, Screen.height / 2 + 200, 250, 50), "<size=18>Voltar</size>"))
         {
-            Application.LoadLevel(GameController._instance.currentLevelName);
+            if (GameController._instance != null)
+            {
+                Application.LoadLevel(GameController._instance.currentLevelName);
+            }
+            else
+            {
+                Application.LoadLevel("MainMenu");
+            }
         }
 
 	}
