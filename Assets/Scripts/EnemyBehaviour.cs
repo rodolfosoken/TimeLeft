@@ -118,11 +118,16 @@ public class EnemyBehaviour : MonoBehaviour {
 
             anim.SetTrigger("hit");
             life-=damage;
-            Timer._timer.plustime(damage);
-            PopUpHitPoint.ShowMessage("+"+damage, transform.position);
             if (life <= 0)
             {
+                Timer._timer.plustime(life + damage);
+                PopUpHitPoint.ShowMessage("+" + (life + damage), transform.position);
                 StartCoroutine(death());
+            }
+            else
+            {
+                Timer._timer.plustime(damage);
+                PopUpHitPoint.ShowMessage("+" + damage, transform.position);
             }
         }
         else

@@ -15,6 +15,8 @@ public class PlayerBehaviour : MonoBehaviour
     AudioSource sound1, sound2, sound3, sound4;
     private float damage;
 
+    public float damageAtaque = 6;
+    public float damageRotacao = 2;
 
 
     void Awake()
@@ -52,6 +54,9 @@ public class PlayerBehaviour : MonoBehaviour
 
     void Update()
     {
+        life = Timer._timer.time;
+
+        die();
         if (!IsDead)
         {
             Ataque();
@@ -69,7 +74,7 @@ public class PlayerBehaviour : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
                 //aciona a animação ataca
-                damage = 6;
+                damage = damageAtaque;
                 anim.SetBool("IsAttacking",true);
                 sound3.Play();
         }
@@ -81,7 +86,7 @@ public class PlayerBehaviour : MonoBehaviour
         if (anim.GetBool("IsDefending") && Input.GetMouseButton(0))
         {
             //ataque de rotação
-            damage = 1;
+            damage = damageRotacao;
             anim.SetTrigger("Rotacao");
         }
     }
