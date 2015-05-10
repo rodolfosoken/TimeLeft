@@ -4,11 +4,14 @@ using System.Collections;
 public class GameController : MonoBehaviour {
 
     public static GameController _instance;
+    //indica se o objetivo da fase foi concluido
     public bool concluido;
     private Transform Objective;
 
     public string mainMenuSceneName;
     public Font pauseMenuFont;
+
+    //pausa o jogo
     private bool pauseEnabled;
 
     private bool showGraphicsDropDown;
@@ -51,19 +54,14 @@ public class GameController : MonoBehaviour {
             if (pauseEnabled == true)
             {
                 //unpause the game
-                pauseEnabled = false;
-                Time.timeScale = 1;
-                AudioListener.volume = 1;
-                Screen.showCursor = false;
+                unPause();
             }
 
            //se o jogo não estiver pausado, então pause
             else if (pauseEnabled == false)
             {
-                pauseEnabled = true;
-                AudioListener.volume = 0;
-                Time.timeScale = 0;
-                Screen.showCursor = true;
+                pause();
+               // Screen.showCursor = true;
             }
         }
 
@@ -145,11 +143,7 @@ public class GameController : MonoBehaviour {
             //Restart
             if (GUI.Button(new Rect(Screen.width / 2 - 100, Screen.height / 2 + 50, 250, 50), "Restart"))
             {
-                //unpause
-                pauseEnabled = false;
-                Time.timeScale = 1;
-                AudioListener.volume = 1;
-                Screen.showCursor = false;
+                unPause();
                 Application.LoadLevel(currentLevelName);
             }
 
@@ -161,6 +155,20 @@ public class GameController : MonoBehaviour {
         }
     }
 
+    public void pause()
+    {
+        pauseEnabled = true;
+        AudioListener.volume = 0;
+        Time.timeScale = 0;
+    }
+
+    public void unPause()
+    {
+        //unpause
+        pauseEnabled = false;
+        Time.timeScale = 1;
+        AudioListener.volume = 1;
+        }
 
     IEnumerator death()
     {
