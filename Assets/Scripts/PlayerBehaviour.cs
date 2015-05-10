@@ -10,7 +10,7 @@ public class PlayerBehaviour : MonoBehaviour
     public bool IsUnderAttack;
     public static PlayerBehaviour _instance;
     public float life;
-    bool IsDead;
+    public bool IsDead;
     AudioSource [] audio;
     AudioSource sound1, sound2, sound3, sound4;
     private float damage;
@@ -54,6 +54,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     void Update()
     {
+        
         life = Timer._timer.time;
 
         die();

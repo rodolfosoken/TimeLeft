@@ -5,7 +5,7 @@ public class ColliderEspada : MonoBehaviour {
 
     Collider col;
     public Transform player;
-    Transform enemy;
+    //Transform enemy;
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +16,7 @@ public class ColliderEspada : MonoBehaviour {
     {
         //Physics.IgnoreCollision(player.GetComponent<Collider>(), GetComponent<Collider>());
        // Physics.IgnoreCollision(GameObject.Find("DynamicObject").transform.GetComponent<Collider>(), GetComponent<Collider>());
-        enemy = GameObject.Find("roBot").transform;
+        //enemy = GameObject.Find("roBot").transform;
         
         //Physics.IgnoreCollision(GameObject.Find("Espada").transform.GetComponent<Collider>(), GetComponent<Collider>());
     }
