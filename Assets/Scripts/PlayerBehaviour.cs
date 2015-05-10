@@ -76,7 +76,7 @@ public class PlayerBehaviour : MonoBehaviour
                 //aciona a animação ataca
                 damage = damageAtaque;
                 anim.SetBool("IsAttacking",true);
-                sound3.Play();
+                sound2.Play();
         }
         else
         {
@@ -88,6 +88,7 @@ public class PlayerBehaviour : MonoBehaviour
             //ataque de rotação
             damage = damageRotacao;
             anim.SetTrigger("Rotacao");
+            sound4.Play();
         }
     }
 
@@ -139,9 +140,9 @@ public class PlayerBehaviour : MonoBehaviour
 
     public void die()
     {
-        if (life == 0)
+        if (life <= 0 && !IsDead)
         {
-            sound4.Play();
+            sound3.Play();
             anim.SetBool("Die", true);
             IsDead = true;
         }  

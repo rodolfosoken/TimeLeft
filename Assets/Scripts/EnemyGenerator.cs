@@ -18,17 +18,27 @@ public class EnemyGenerator : MonoBehaviour {
     private float life;
     //fogo pequeno de dano
     public Transform fireSmall;
-    private bool once;
+    private bool once, once2;
     public Transform explosion;
     public Transform []fireGroup;
+    AudioSource explosaoSom;
+
+    Light luz;
 
 	// Use this for initialization
 	void Start () {
-        life = lifeStart;
-        once = true;
-        fireGroup = new Transform[4];
+
  
 	}
+
+    void Awake()
+    {
+        luz = GetComponentInChildren<Light>();
+        life = lifeStart;
+        once2 = once = true;
+        fireGroup = new Transform[4];
+        explosaoSom = GetComponent<AudioSource>();
+    }
 	
 	// Update is called once per frame
     void Update()
@@ -52,16 +62,22 @@ public class EnemyGenerator : MonoBehaviour {
             fireGroup[1] = Instantiate(fireSmall, new Vector3(transform.position.x + 3, 0, transform.position.z - 2), Quaternion.identity) as Transform;
             fireGroup[2] = Instantiate(fireSmall, new Vector3(transform.position.x + 3, 0, transform.position.z - 2), Quaternion.identity) as Transform;
             fireGroup[3] = Instantiate(fireSmall, new Vector3(transform.position.x - 3, 0, transform.position.z + 2), Quaternion.identity) as Transform;
+            luz.GetComponent<SpotShine>().frequency = 150;
+            luz.GetComponent<SpotShine>().magnitude = 3;
             once = !once;
         }
-        if (life < 0)
+        if (life <= 0 && once2)
         {
             Destroy(fireGroup[0].gameObject);
             Destroy(fireGroup[1].gameObject);
             Destroy(fireGroup[2].gameObject);
             Destroy(fireGroup[3].gameObject);
-            Destroy(this.gameObject);
+            explosaoSom.Play();
+            luz.intensity = 0;
+            gameObject.renderer.enabled = false;
+            Destroy(this.gameObject,4);
             Instantiate(explosion, transform.position, Quaternion.identity);
+            once2 = !once2;
     
         }
 
